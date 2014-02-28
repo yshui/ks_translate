@@ -1,0 +1,1616 @@
+﻿#**************************************
+#Translated by nialv7@gmail.com aka. rorvn
+
+label en_L15:
+
+scene black
+with dissolve
+
+$ renpy.music.set_volume(0.5, 0.0, channel="ambient")
+play ambient sfx_parkambience fadein 6.0
+
+#ha "Is he still sleeping?"
+ha "他还在睡吗？"
+
+#li "I think so."
+li "好像是。"
+
+#"I'm not. I am, however, incredibly tired."
+"我没睡。事实上，我只是，非常累罢了。"
+
+#ha "It's getting late in the morning…"
+ha "都快要中午了……"
+
+#"I know that."
+"我知道。"
+
+#li "He likely stayed up to watch television. I could hear it from our bedroom."
+li "他大概看了一晚的电视。从我们的卧室都能听到。"
+
+#"Only because I couldn't get to sleep."
+"这还不是因为我睡不着觉。"
+
+#ha "Should we wake him?"
+ha "我们要叫醒他吗？"
+
+#"Don't do that, Hanako. Please."
+"别，华子。求你了。"
+
+#li "No, we should leave him. I doubt he'd want to be woken early if he didn't get much sleep during the night."
+li "不，还是随他去吧。我觉得要是他睡得很晚的话现在一定不愿意被人弄醒。"
+
+#"Thank you, Lilly."
+"谢谢，莉莉。"
+
+#li "Besides, he sounds so peaceful. It would be a shame to wake him when he's like this."
+#XXX
+#缺德？？
+li "再说了，听上去他睡得很安稳。现在就叫醒他实在太缺德了。"
+
+#"Keep a straight face, Hisao. It is nice she cares so much, though."
+"一定要保持面无表情，久夫。不过她能这么关心我，真是太好了。"
+
+#ha "Um…"
+ha "呃……"
+
+#li "Hanako, could you go to the fridge and fish out what's needed to make lunch?"
+li "华子，你能去冰箱那帮我拿点午餐的材料吗？"
+
+#ha "All right, just the vegetables and rice?"
+ha "好吧。光蔬菜和米够吗？"
+
+#li "Mm, that should be enough. We only need something simple, as we can eat in town later."
+li "嗯，应该够了。我们简单吃点就好，待会我们还可以上镇上吃。"
+
+#"Hanako's footsteps on the carpeted floor can be heard, moving away from the living room. As they do, I feel Lilly's hand gently rest on my chest."
+"随着华子踩在地毯上的脚步声渐渐远去，我感觉到莉莉的手轻轻地落在我的胸膛上。"
+
+#"It takes a titanic effort not to react, but something about her makes me think she knows I'm awake."
+#XXX
+"想要保持平静实在太难了，但是我的直觉告诉我她知道我其实醒着。"
+
+#"A long silence passes."
+"长长地沉默。"
+
+#"The only thought in my mind is of that gentle, outstretched hand laying upon my chest. After an indiscernible amount of time, Lilly withdraws her hand."
+"那轻柔、伸展开来的手掌此刻占据了我全部的思绪。不知过了多久，莉莉收回了她的手。"
+
+#li "Good morning, Hisao."
+li "早上好，久夫。"
+
+$ renpy.music.set_volume(1.0, 3.0, channel="ambient")
+play music music_dreamy fadein 8.0
+
+scene bg hok_lounge
+show lilly basic_smileclosed_cas at center
+with openeye
+
+#"Conceding defeat all too easily, I prop myself up and rub my eyes."
+#XXX all too easily
+"我认输了。我坐起来，揉着眼睛。"
+
+#hi "How'd you know?"
+hi "你怎么知道的？"
+
+show lilly basic_weaksmile_cas
+with charachange
+
+#li "Your breathing was off."
+#XXX
+li "你的气息乱了。"
+
+#"While that makes sense, she couldn't have needed that long to work it out. Knowing her hearing, she likely knew before laying her hand on me."
+#XXX 改了说法
+"如果她说的是真的话，那她也不用这么久才能察觉我醒着。就她的听力来看，她大概在把手放到我身上之前就知道了。"
+
+show lilly basic_displeased_cas
+with charachange
+
+#li "If you want to sleep more, you should really go to bed earlier. I heard the television going long into the night."
+li "如果你真想多睡会的话，你应该早点上床睡觉。我听到电视的声音一直持续到深夜。"
+
+#hi "Sorry about that. My medications have been interfering with my sleep for a while now. Even if I'm tired I have trouble actually sleeping."
+hi "不好意思。我吃的药影响我的睡眠已经有一段时间了。就算我很累，我也睡不着。"
+
+show lilly basic_oops_cas
+with charachange
+
+#li "I'm… sorry for bringing it up, Hisao."
+li "我……我不该提起这个的，久夫。"
+
+label en_choiceL15:
+menu:
+    with menueffect
+
+#   "I sigh. This is exactly the kind of thing I wish others wouldn't do."
+#XXX 意思是我不希望别人的过度关心。
+    "我叹了口气。我最讨厌别人这样了。"
+
+#   "Address it.":
+    "说出来。":
+        return m1
+    
+#   "Wave her off.":
+    "打发她一下。":
+        return m2
+
+
+label en_L15a:
+
+#hi "Come on, you worry about me more than I do at times. It just means I have to sleep a bit longer, that's all."
+#XXX
+hi "得了吧，你管的你我妈还多。我多睡会就行了，没什么的。"
+
+show lilly basic_reminisce_cas
+with charachange
+
+#li "But still…"
+li "但是……"
+
+#hi "I'd say that I look absolutely fine, but I guess that wouldn't have a lot of meaning for you."
+#XXX
+hi "我会说我一点事都没有，但我想你大概不会相信我说的。"
+
+show lilly basic_displeased_cas
+with charachange
+
+#"She gives a sigh of consternation before trailing off with an amused chuckle, giving up the point."
+#XXX wtf is a sigh of consternation
+"她有点吃惊的叹了口气，但是很快转为轻笑，表示她放弃了和我的争论。"
+
+show lilly basic_weaksmile_cas
+with charachange
+
+#li "If you say so. Please do take care of yourself, Hisao."
+#XXX
+li "如果你这么说的话，那就请你照顾好你自己了，久夫。"
+
+#hi "Go on, Hanako could use some help."
+#XXX
+hi "好了，你得去帮帮华子了。"
+
+hide lilly
+with dissolve
+
+#"She moves to protest, but reluctantly acquiesces and disappears into the kitchen, her hand running along the smooth white walls as she slowly walks."
+#XXX
+"她准备反抗，但是最后放弃了。她消失在厨房里，一路上手一直摸着墙壁。"
+
+label en_L15b:
+
+#hi "Hanako could… probably use some help."
+hi "我想……你也许该去帮帮华子。"
+
+show lilly basic_displeased_cas
+with charachange
+
+hide lilly
+with dissolve
+
+#"Lilly seems about to protest for a moment, but eventually acquiesces, nodding before leaving for the kitchen."
+#XXX
+"莉莉似乎想说什么，但最后还是放弃了。她点了点头，然后走向厨房。"
+
+label en_L15c:
+
+#"For a while I sit and watch television in an attempt to wake myself a little more, but it's futile. I don't have anything better to do, so I follow Lilly's lead."
+"我坐着，看了好一会儿的电视，试图让我自己更清醒一点。我的努力完全是徒劳的。我也没想到有什么更好的事做，所以我就跟着莉莉进了厨房。"
+
+stop ambient fadeout 5.0
+
+scene bg hok_kitchen
+with locationchange
+
+#"As I round the corner, I see Hanako and Lilly, backs turned, quietly cutting food on the granite-colored counter."
+#XXX 这里为什么要写颜色？
+"我绕过转角，就看见了华子和莉莉，背朝着我，正在案板上安静地切着菜。"
+
+#"I am temporarily engrossed as I watch Lilly guiding the knife down carefully with a finger on the cabbage she's cutting, each slice delivered slowly but with precision."
+#XXX
+"我被莉莉的动作吸引了注意力，她小心地用手指确认刀在菜上的位置，然后才慢慢切下。她切得很慢，但是很精确。"
+
+#"She seems a little slow, but considering that she can't see what she's doing it's a small wonder she can cook at all, let alone for both her and Hanako."
+"虽然她的动作有些慢，但考虑到她没法用眼睛看见自己在做什么，她能做菜已经很不容易了。更别说她还连华子的份一起做了。"
+
+#hi "Hi Hanako, Lilly. Want any help?"
+hi "嗨，华子，莉莉。我能帮什么忙吗？"
+
+show lilly back_surprise_cas at twoleft
+show hanako basic_normal_cas at tworight
+with charaenter
+
+stop music fadeout 0.3
+
+#$ doublespeak(li, ha, "Is that Hisa— ah!",  "Oh, 'morning Hisao.")
+$ doublespeak(li, ha, "是久——啊！",  "哦，早上好久夫。")
+
+show lilly basic_oops_cas
+with charachange
+
+#"Lilly jerks back in surprise before turning around, her yelp immediately drawing Hanako and I to her side."
+"莉莉吃惊地一震，然后才转过身来。她的叫声马上吸引了华子和我的注意。"
+
+#hi "What's… ah."
+hi "怎……啊。"
+
+#"A small trickle of scarlet falls downward from her pale fingertip, the knife having cut just deep enough to draw blood."
+"一条细细的红绢从她白皙的指尖挂下来，她的手指被刀切出血了。"
+
+#"With the television's sound masking my footsteps, she must not have noticed me coming. To compensate for having to use touch to guide everything she does during cooking, she must need to pay extra attention."
+"电视的声音盖住了我的脚步声，她一定没有注意到我。而且她现在的注意力又集中在切菜上，她一定没有多余的精力注意来人。"
+
+show hanako defarms_shock_cas
+with charachange
+
+play music music_dreamy fadein 8.0
+
+#ha "Lilly!"
+ha "莉莉！"
+
+show lilly basic_weaksmile_cas
+with charachange
+
+#li "Don't worry, Hanako. It's just a small wound."
+li "别担心，华子。只是个小伤口。"
+
+#hi "You should still get a band-aid on it, at least until it stops bleeding. First aid stuff would be in the bathroom, right?"
+hi "就算这样你也得贴个创口贴，至少得贴到血止住为止。急救箱在洗浴室，对吧？"
+
+show lilly basic_sleepy_cas
+with charachange
+
+#li "I think so. Will you be okay here, Hanako?"
+li "我想是的。你一个人没关系吧，华子？"
+
+show hanako cover_worry_cas
+with charachange
+
+#"I frown at how little heed she's paying to herself as Hanako gives a quick, almost automatic, nod."
+"华子条件反射地点了点头。她对自己的关心还不及对华子的多，我皱起眉头。"
+
+show hanako basic_worry_cas
+with charachange
+
+#ha "It's fine, I can keep making lunch."
+ha "没关系的，我能继续做饭。"
+
+scene bg hok_bath
+with locationskip
+
+#"An awkward silence reigns as I set the bottle of antiseptic and box of band-aids on the side of the sink, Lilly's finger held out for me to treat."
+"房间里的气氛安静得有些尴尬。我把消毒剂和创口贴放在水池的一边，莉莉伸出了她受伤的手指。"
+
+#"The lid of the bottle comes off with a minimum of resistance, and the small ball of cotton I soak in the liquid stains a pale green."
+"我没花多大力气就打开了瓶盖，我伸进瓶子里的小棉球染上了浅浅的绿色。"
+
+#hi "Okay, hold still. This'll probably hurt a bit."
+hi "好了，别动。可能会有点疼。"
+
+show lilly basic_weaksmile_cas_close at center
+with charaenter
+
+#"She gives a small nod as I take hold of her hand to steady it. With all the tenderness I can muster, I gently bring the dampened wad to the small red line."
+#XXX
+"她点了点头。我握住了她的手，用我能做到的最轻的动作，将棉球贴上她的伤口。"
+
+show lilly basic_oops_cas_close
+with charachange
+
+#li "Ah!"
+li "啊！"
+
+#hi "What? I've barely touched it."
+hi "怎么了？我才刚碰到你。"
+
+show lilly basic_reminisce_cas_close
+with charachange
+
+#li "Sorry…"
+li "对不起……"
+
+#"I give a sigh, both at her reaction and to settle my own nerves. Her pain tolerance is startlingly low."
+"我叹了口气，既为了她的反应，也为了让我平静下来。她的痛觉真是敏感得让人吃惊。"
+
+#hi "I would tell you to man up, but I can't really do that."
+hi "我很想对你说‘能不能想个男人一点’，但我觉得我不能这么说。"
+
+show lilly basic_weaksmile_cas_close
+with charachange
+
+#"As she gives a small giggle, I take advantage of her momentary distraction and gently press the cotton against her finger a few times. Thankfully, it's enough to do the job."
+"她轻轻地笑了。我抓住她分散注意的这个短暂机会，把棉球在她的手指上轻轻按了几次。谢天谢地，这样看上去好像就够了。"
+
+#"We both settle somewhat as I bring the band-aid over the tip of her finger, covering the wound while making sure not to get it stuck to her fingernail."
+"我把创口贴贴到她手指上，盖住伤口，又不会让它黏在她的指甲上。完成这让我们两都稍稍放松下来。"
+
+#hi "There, finished. You can move now."
+hi "好了，搞定了。你能动了。"
+
+#"Taking her hand from mine, she gently clasps it in the other."
+"她从我手中抽回她的手，然后用另一只手轻轻握住。"
+
+show lilly basic_smileclosed_cas_close
+with charachange
+
+#li "Thank you."
+li "谢谢你。"
+
+#hi "It's no problem. It's the least I can do after causing you to hurt yourself, after all."
+hi "没事。我也没帮上什么忙，再说你受的伤还得怪我呢。"
+
+show lilly basic_emb_cas_close
+with charachange
+
+#"She lowers her head slightly at the apology, absentmindedly rubbing her hand in what seems to be embarrassment."
+"我的道歉让她轻轻低下头，看似尴尬地搓着手掌。"
+
+show lilly basic_weaksmile_cas_close
+with charachange
+
+#li "I really don't mind."
+li "没关系，我不在乎。"
+
+stop music fadeout 5.0
+
+#"Her answer doesn't seem to make much sense, given that what happened is pretty clearly my fault."
+""
+
+#"I can't help grimacing at her, despite the fact that her dainty smile still holds. She must not like being reminded of the limitations her lack of sight imposes on her."
+""
+
+#"It's something I can't possibly fault her for. I've fallen prey to the same kind of feelings before, despite my condition not being nearly as ubiquitous in my life."
+""
+
+#"Neither of us any the happier, we head back to the various smells of cooking food coming from the kitchen."
+""
+
+scene bg hok_lounge
+with shorttimeskip
+
+play music music_another fadein 8.0
+
+#"I lay out the plates of food, steam slowly rising from the well-cooked rice and curry dishes, while Hanako lays out the cutlery."
+""
+
+#"Knife one side, fork on the other. Western. How perfectly fitting for someone like Lilly."
+""
+
+#"As we take our seats, taking careful heed of the dark red tablecloth hanging below our knees, Lilly emerges from the kitchen."
+""
+
+#"In her hands are three glasses and… a bottle of wine?"
+""
+
+#"As I recall our previous run-in with that devilish elixir, I hide my face in my palm."
+""
+
+#hi "Alcohol? Seriously?"
+hi ""
+
+show lilly basic_cheerful_cas at center
+with charaenter
+
+#"She pauses as she reaches the table, a playful grin perched on her face."
+""
+
+show lilly basic_giggle_cas
+with charachange
+
+#li "Akira specifically gave permission to take a bottle from her collection."
+li ""
+
+#"Not only does she give alcohol to minors, she even lets them pilfer their own? The perfect model of a responsible adult Akira is not."
+""
+
+#"More to the point, though, is that this is hardly a meal deserving of alcohol. I'm starting to think Lilly's the type to easily become hooked on things."
+""
+
+#hi "That's not really the problem. I don't really have any qualms with it, but didn't you have a bad experience with it last time?"
+hi ""
+
+show lilly basic_smileclosed_cas
+with charachange
+
+#li "Last time was likely due to drinking too much, so a single glass shouldn't prove a problem."
+li ""
+
+show lilly basic_smile_cas
+with charachange
+
+#li "Think of it as a learning experience."
+li ""
+
+#hi "I can't recall many learning experiences that made me feel rotten before putting me to sleep, but I'll take your word for it."
+hi ""
+
+show lilly basic_smileclosed_cas
+with charachange
+
+#"She dips an uninjured finger inside to feel the liquid level, tip against the bottom as the liquid rises up."
+""
+
+#"The white of her finger almost seems to glow as the sunlight hits it, the delicate outline blurred and refracted by the glass."
+""
+
+#"Her fingers are definitely longer than mine, the kind I'd think more suited to a pianist than a teacher. She'd likely have done well if she'd learned how to play."
+""
+
+hide lilly
+with charaexit
+
+#"We quickly dig into our meal, forks and knives clattering against plates."
+""
+
+#"None of us are particularly eager to speak while eating, Lilly altogether too reserved for such a thing, Hanako probably too shy to start conversation, and I too busy savoring the food."
+""
+
+#"Such a pedestrian activity, eating together at a table. It seems so utterly normal, yet it makes me realize how long it's been since I've done something like this."
+""
+
+#"Just the three of us, sitting around a single table eating as if we were a malformed family. Maybe this trip, as far away from everything as we are, was worth it."
+""
+
+with shorttimeskip
+
+#"It takes quite a long time, but eventually we all finish our surprisingly filling meal. The wine, thankfully, has little effect given we've only had a glass or two each."
+""
+
+#"I slump back into the seat, rubbing my stomach contentedly."
+""
+
+#hi "I'm stuffed."
+hi ""
+
+show lilly basic_smileclosed_cas at twoleft
+show hanako basic_smile_cas at tworight
+with charaenter
+
+#"Lilly pats her mouth with a napkin. Twice, only twice, and with evenly timed intervals inbetween. It's hard to tell sometimes whether how she acts is a well-trained routine or a well-rehearsed act."
+""
+
+show lilly basic_satisfied_cas
+with charachange
+
+#li "I think I must be as well. Did you like it, Hanako?"
+li ""
+
+show hanako cover_bashful_cas
+with charachange
+
+#ha "Mm, it was nice."
+ha ""
+
+show lilly basic_smileclosed_cas
+with charachange
+
+#li "Now that we're well fed, shall we be off?"
+li ""
+
+#hi "Off? Where?"
+hi ""
+
+show lilly basic_weaksmile_cas
+with charachange
+
+#li "Ah, you weren't privy to the discussion between Hanako and I earlier."
+li ""
+
+#"I get the impression that she's having a subtle dig at my sleeping in."
+""
+
+show hanako basic_bashful_cas
+with charachange
+
+#ha "We'll be going into the town nearby."
+ha ""
+
+#"I guess I should have expected two girls to take a holiday as an excuse to go shopping, no matter where on the planet they may be."
+""
+
+#"I am interested to see more around the north though, so this can only be a good thing."
+""
+
+#hi "Sounds good. How long's the walk in, then?"
+hi ""
+
+show lilly basic_smile_cas
+with charachange
+
+#li "It's supposed be around a mile to a mile and a half."
+li ""
+
+stop music fadeout 4.0
+
+#hi "Nearby, huh? Great."
+hi ""
+
+#"Just great."
+""
+
+scene bg hok_road at bgright
+with shorttimeskip
+
+$ renpy.music.set_volume(1.0, 0.0, channel="ambient")
+play ambient sfx_parkambience fadein 6.0
+play music music_soothing fadein 0.5
+
+#"As we climb up the path surrounded by trees and undergrowth, I watch Lilly and Hanako walking ahead."
+""
+
+#"The slight breeze all but whisks away the sound of Lilly's cane gently tapping on the ground. I notice that Lilly's since removed the bandaid now that the bleeding of her finger has stopped."
+""
+
+#"A deep, lung-filling breath of the fresh country air makes me wish all the harder that the air around home had been quite so clean."
+""
+
+#"It can't have even been half a mile, but I'm already working up a sweat. It isn't a pleasantly cool day, though, so I shouldn't be too hard on myself for it."
+""
+
+#hi "Hey Lilly, how well do you know this town, anyway?"
+hi ""
+
+show lilly back_smileclosed_cas at center
+show lillyprop back_cane
+with charaenter
+
+#li "Since I spent quite a few of my vacations here up until I entered Yamaku, I'd say I know it fairly well. We used to drive there once a weekend then."
+li ""
+
+#"How I wish Akira was here to drive us now."
+""
+
+#"I quickly take a moment to rub my hands a couple of times, staving off the oddly cold feeling in them."
+""
+
+#hi "Did you like it up here?"
+hi ""
+
+show lilly cane_weaksmile_cas
+hide lillyprop
+with charachange
+
+#li "I'd say it was nice during winter, but as you can work out, summers get a little too hot for comfort. It's nice and quiet, at least."
+li ""
+
+#li "My family's real house is quite far south. When they left Japan, my parents gave it to Akira and I. Only Akira lives there now, after my moving into Yamaku."
+li ""
+
+#hi "Well, quiet certainly describes this place."
+hi ""
+
+#"Though lonely is how I'd put it."
+""
+
+#"Other than the prophesied small town, there isn't another soul for miles around. Coming from a home nestled deep within the big city, it's certainly different."
+""
+
+#"I think that if I'd not come to Yamaku, staying out in the country like this would be too much of a change to get used to."
+""
+
+#"After getting accustomed to the school's isolation, though, the idea of living in a place such as this has become almost inviting. To be somewhere away from the hustle and bustle of the metropolitan centers."
+""
+
+show lilly cane_smile_cas
+with charachange
+
+#li "So Hisao, have you been to Hokkaido before?"
+li ""
+
+#hi "Nah. I used to live down south, and we never had any field trips or holidays up this far."
+hi ""
+
+show lilly cane_cheerful_cas
+with charachange
+
+#li "Well, it's a new experience for you then."
+li ""
+
+#hi "Yeah, it is. I'm surprised at how nice it feels here."
+hi ""
+
+#hi "How about you, Hanako?"
+hi ""
+
+show lilly cane_cheerful_cas at twoleft
+show bg hok_road at center
+with charamove
+
+show hanako emb_smile_cas at tworight
+with charaenter
+
+#"She shakes her head from side to side."
+""
+
+show hanako basic_bashful_cas
+with charachange
+
+#ha "It's my first time too."
+ha ""
+
+#"As we continue walking, I begin to feel pins and needles in my legs. It's a little disturbing, given there's no reason for it to be happening."
+""
+
+stop ambient fadeout 9.0
+stop music fadeout 4.0
+
+#hi "Could you two hold on a moment? I just need to…"
+hi ""
+
+show lilly cane_surprised_cas
+with charachange
+
+#li "Is anything wrong?"
+li ""
+
+#hi "Nah, I've just got pins and needles in…"
+hi ""
+
+window hide
+
+play sound sfx_heartslow
+
+show heartattack alpha 
+with Dissolve (0.1)
+
+hide heartattack alpha
+with Dissolve (0.2)
+
+with Pause(0.7)
+
+play sound sfx_heartfast
+show heartattack alpha 
+with Dissolve (0.1)
+
+hide heartattack alpha
+with Dissolve (0.8)
+
+with Pause(0.05)
+
+play sound sfx_heartstop
+show heartattack alpha 
+with Dissolve (0.1)
+
+show heartattack residual
+with Dissolve (0.8)
+
+play music music_tragic fadein 0.5
+
+window show
+
+#"My vocal cords suddenly become taut as my chest tightens instantaneously. I quickly pull my upper arm over it, trying to quell the shot of pain spreading throughout my entire body."
+""
+
+show lilly cane_reminisce_cas
+show hanako defarms_strain_cas
+with charachange
+
+#li "Hisao?"
+li ""
+
+#"Lilly's face is only mildly concerned, not knowing the sight which Hanako's recoiling from."
+""
+
+#hi "I'm fine, I'm… fine. Just… tired…"
+hi ""
+
+#"I remove my arm from my chest and force myself to begin walking again. It's just a minor heart flutter, so it'll pass like the others."
+""
+
+play sound sfx_heartslow
+
+show heartattack alpha 
+with Dissolve (0.1)
+
+show heartattack residual
+with Dissolve (0.8)
+
+#"It only takes a couple of steps before my body violently revolts against me, my legs suddenly beginning to give way underneath me and all tension in my knees seeming to evaporate."
+""
+
+scene bg hok_road:
+    xalign 0.5 yalign 0.52 rotate 0 zoom 1.0
+    linear 0.1 rotate -6 zoom 1.2
+show lilly cane_reminisce_cas:
+    xanchor 0.5 xpos 0.3 yalign 0.52 rotate 0 zoom 1.0
+    linear 0.1 xpos 0.25 rotate -6 zoom 1.2
+show hanako defarms_strain_cas:
+    xanchor 0.5 xpos 0.7 yalign 0.52 rotate 0 zoom 1.0
+    linear 0.1 xpos 0.75 rotate -6 zoom 1.2
+show heartattack residual
+play sound sfx_pillow
+with vpunch
+
+#"Before I can react they uselessly give way under my weight, leaving me only just enough time to brace myself and fall onto all fours."
+""
+
+#hi "Ah, damn…"
+hi ""
+
+show hanako defarms_shock_cas
+with charachange
+
+#ha "Hisa… AAAAH!"
+ha ""
+
+#"As I look up to her I realize my face is still taut with pain, only adding that much more to her worrying."
+""
+
+show lilly cane_oops_cas
+with charachange
+
+#li "Hisao!? Hanako, tell me what's going on!"
+li ""
+
+#li "Hanako, tell me!"
+li ""
+
+show hanako def_strain_cas_close
+with characlose
+
+#"Hanako quickly moves to my side as Lilly almost panics, having little clue as to exactly how bad a condition I'm in. While she stands there petrified, I lower my face and take a deep breath."
+""
+
+scene black
+show heartattack alpha
+with shuteyefast
+
+#"I come to a realization that makes me endlessly irritated with my stupid self. With all the excitement of my new surroundings, I'd entirely neglected to take my medications last night or even this morning."
+""
+
+stop music fadeout 9.0
+
+hide heartattack
+with Dissolve(3.0)
+
+#"Taking another breath, the acute pain in my chest begins to die down as suddenly as it had arrived."
+""
+
+#"Thank God. Thank God. Thank God, thank God, thank God."
+""
+
+play ambient sfx_parkambience fadein 6.0
+
+scene bg hok_road
+show lilly cane_oops_cas at twoleft
+show hanako def_strain_cas_close at tworight
+with openeye
+
+#"As it does, I become acutely aware of the sweat by now pouring off my face and the two scared girls around me."
+""
+
+show lilly cane_reminisce_cas
+with charachange
+
+#li "Hisao!"
+li ""
+
+#hi "I'm fine, Lilly. I'm… fine."
+hi ""
+
+show hanako defarms_strain_cas_close
+play sound sfx_impact
+with vpunch
+
+#"I screw up my brow in an effort to lever myself up, Hanako's arms quickly moving to catch me if I fall as I stumble a bit before regaining my balance."
+""
+
+#"I look to Lilly and Hanako, worry written on both their faces. I feel awful. Utterly awful."
+""
+
+show lilly cane_sad_cas
+with charachange
+
+#li "I think we should go back."
+li ""
+
+#hi "I…"
+hi ""
+
+#"Realizing the futility of protesting, I look away in frustration."
+""
+
+#hi "Fine."
+hi ""
+
+stop ambient fadeout 2.0
+
+$ suppress_window_after_timeskip = True
+
+scene black
+with dissolve
+
+#**************************************
+
+label en_L16:
+
+window hide None
+
+scene black
+with dissolve
+
+scene bg hok_lounge_ss
+with openeye
+
+window show
+
+$ renpy.music.set_volume(0.2, 0.0, channel="ambient")
+play ambient sfx_cicadas fadein 2.0
+
+#"I open my eyes groggily, completely bereft of energy."
+""
+
+#"For a while, I simply lie down lifelessly, staring at the ceiling as I review the events of the morning in an attempt to organize my thoughts."
+""
+
+#"We went to walk to town. My heart nearly gave way. We came back. I took my pills. I slept."
+""
+
+#"I can only remember each period of time as a snapshot, but the timeline is clear enough. The memory of the girls' faces as I struggled to stand is an unpleasant one, stinging my feelings harshly."
+""
+
+#"If I look at the ceiling hard enough, I can imagine the tile edges and small dimples of the ceiling in the hospital. That fact alone is enough to make me sit up and try to pull myself together."
+""
+
+#"I scratch the back of my disheveled hair, glancing around the room. Lilly and Hanako are nowhere to be seen, and the television's turned off."
+""
+
+#"The clock above it says it's pretty late in the afternoon. The noticeably reddened sky outside the windows confirms it further."
+""
+
+#"I turn and pick myself off the futon, swaying slightly as I put my arms out for balance. I suppose I'd better go look for the girls to see if they're… all right…"
+""
+
+#"As I look out the window, I faintly see something in the distance."
+""
+
+#"Straining my eyes, I can just make out the shape of a person's figure. Her long blonde hair, swaying in the faint breeze, makes her almost seem to melt into the bright yellow of the wheat field."
+""
+
+#"Without a second thought, I leave the room to follow that lone apparition."
+""
+
+stop ambient fadeout 2.0
+play music music_innocence fadein 14.0
+
+scene bg hok_wheat_ss at Fullpan(8.0)
+with Fade(0.5, 0.2, 3.0, color="#fff")
+
+#"The brightness of the setting sun assaults my freshly woken eyes, forcing me to avert them until they adjust."
+""
+
+#"The long, yellow strands of wheat brush against my legs as I wade through them, the densely-grown field making it hard to advance."
+""
+
+#"Regardless, my eyes stay fixed ahead, true to that solitary figure. Within minutes I reach her, meters behind her turned back."
+""
+
+#hi "Lilly?"
+hi ""
+
+scene bg hok_wheat_ss at right
+show lilly back_pout_cas_ss at center
+with charaenter
+
+#"She simply nods."
+""
+
+#hi "Where's Hanako?"
+hi ""
+
+show lilly back_listen_cas_ss
+with charachange
+
+#li "She's in bed. She went to sleep after I calmed her down."
+li ""
+
+#"She says it matter-of-factly and with as few words as possible, as if saying any more was strictly forbidden."
+""
+
+#"There's something different about her. Her normally confident figure seems oddly fragile, her body offering no resistance to the breeze blowing her skirt."
+""
+
+#"The strands of wheat sway from side to side while a deafening pause passes, the only sound being their rustling."
+""
+
+#"As we stand in the field alone, I know what I have to ask."
+""
+
+#hi "What's wrong, Lilly? You're not acting like you usually do."
+hi ""
+
+show lilly back_sad_cas_ss
+with charachange
+
+#li "Remember when I talked of my family, Hisao?"
+li ""
+
+#hi "Your family…"
+hi ""
+
+#"I look downwards in thought, sifting through my scattered memories. The event seems to leap ready to hand when I search for it, rising to the surface as soon as it was recalled."
+""
+
+#hi "After Hanako's birthday party?"
+hi ""
+
+#"She gives a single, simple nod."
+""
+
+show lilly back_pout_cas_ss
+with charachange
+
+#li "It was nice… back then. You and I, celebrating with Hanako. Simply sharing presents, talking, having fun together. It was almost as if we were a family. One small, misshapen family."
+li ""
+
+show lilly back_sad_cas_ss
+with charachange
+
+#li "I thought that could just go on forever. Just the three of us, happily together."
+li ""
+
+#"She takes a long breath, a slight shakiness to it just barely audible through the moving air."
+""
+
+show lilly back_pout_cas_ss
+with charachange
+
+#li "Even if my family was so far away… as long as we were together, that was all I needed. I don't want to lose you, Hisao."
+li ""
+
+#li "I didn't even realize how afraid I was of losing someone else until today. Until…"
+li ""
+
+#hi "I'm sorry, Lilly. I know my body's weak, but even then I make the most stupid of mistakes."
+hi ""
+
+stop music fadeout 4.0
+
+show lilly back_sad_cas_ss
+with charachange
+
+#li "Don't apologize… please don't apologize…"
+li ""
+
+#hi "Lilly…?"
+hi ""
+
+show lilly basic_concerned_cas_ss
+with charachange
+
+#"She turns to face me, her pale cheeks stained with tears."
+""
+
+show lilly basic_concerned_cas_close_ss
+with characlose
+
+#"One misguided step after another she stumbles towards me, her arms held out in search of so much as a faint brush against me."
+""
+
+play music music_romance fadein 2.0
+
+window hide
+
+scene unlock_ev lilly_wheat_close
+show ev lilly_wheat_large:
+        yalign 0.5 xalign 0.0 subpixel True
+        easein 20.0 xalign 1.0
+show ovl lilly_wheat_foreground:
+        yalign 0.5 xalign 0.0 subpixel True
+        easein 20.0 xalign 1.0
+with GenericWhiteout(1.0, 0.0, 4.0)
+
+window show
+
+#"My heart doesn't race nor pound as I step towards Lilly, gently taking and steadying her in my arms as she quickly clutches to me, sobbing."
+""
+
+#"With her face trembling against my shoulder, the next words from her mouth are the last I expected."
+""
+
+#li "I love you, Hisao. I love you, I love you, I love you, I love you, I love you!"
+li ""
+
+#li "Don't go away, I beg of you. Never, ever go away. I love you, so please…!"
+li ""
+
+#"So… that's why she's been acting like this. That tender voice when I called her, her thoughtless concern at the slightest pain I might feel…"
+""
+
+#"After having been left in Japan without her family, and with only Akira, Hanako and I around, she was afraid of losing yet another person who was close to her. She was genuinely worried for me."
+""
+
+#"It's a strange feeling. A mix of surprise and sorrow, yet also of the deepest gratitude I think I've ever felt. The only reaction I can muster among my conflicting emotions is a calm sigh."
+""
+
+#hi "You idiot."
+hi ""
+
+#li "Hi… sao?"
+li ""
+
+#"For a fleeting moment, I feel her body become still. The only movement to be felt is the calm afternoon breeze."
+""
+
+#hi "I said it before, didn't I? It's only natural to feel concerned about those around you."
+hi ""
+
+#hi "I'm still here, and I'll always be here, because I want to see you more each day. To share in your happiness, to support you in your sadness…"
+hi ""
+
+#hi "But most of all, I'll still be here because I want to see your smile. Your true smile."
+hi ""
+
+#"A single gust of wind rustles the long strands of wheat, a second's silence passes."
+""
+
+#hi "Smile when you want to smile. Cry when you want to cry. I love you, Lilly. So you don't have to hold back any more."
+hi ""
+
+#"With that, her arms clutch my back as tightly as she can, her face buried beside mine."
+""
+
+scene ev lilly_wheat_small:
+    xalign 0.5 yalign 0.5 zoom 1.1 subpixel True
+    ease 16.0 zoom 1.0
+with whiteout
+
+#"Her tears fall down my back and she cries unrestrainedly as the last of her resistance melts away."
+""
+
+#li "Hisao! Hisao! Hisao!"
+li "久夫！久夫！久夫！"
+
+#"I close my eyes and bring my head down to her shoulder, holding her shaking frame tightly."
+""
+
+#hi "It's okay, Lilly. I'll never go away."
+hi "没事的，莉莉。我绝不会丢下你的。"
+
+#hi "I promise."
+hi "我"
+
+stop music fadeout 6.0
+
+#**************************************
+
+label en_L17:
+
+scene bg hok_lounge_ss
+with locationskip
+
+#"We slowly walk back to the house, holding each other tightly as we take a seat inside. Lilly leans her head onto my shoulder as I put my arm around her waist."
+""
+
+#"Neither of us has any want to break the silence."
+""
+
+#"With her eyes shut it's hard to work out whether she's fallen asleep. Not that I mind: the warmth of her body leaning against me, the softness of her hand delicately held in mine…"
+""
+
+#"For a long, long time we sit leaning against one another, sharing our warmth and feelings as night eventually begins to settle in."
+""
+
+#"Lilly's gentle, soft voice ends the silence."
+""
+
+show lilly basic_smileclosed_cas_close_ss at center
+with charaenter
+
+play music music_twinkle fadein 6.0
+
+#li "Thank you, Hisao."
+li ""
+
+#hi "Thank you?"
+hi ""
+
+show lilly basic_smile_cas_close_ss
+with charachange
+
+#li "For returning my feelings."
+li ""
+
+#hi "Did you think I wouldn't?"
+hi ""
+
+show lilly basic_weaksmile_cas_close_ss
+with charachange
+
+#li "There was the possibility."
+li ""
+
+#"I take a deep breath in thought. That much was only my fault."
+""
+
+#hi "It's funny, actually. I was thinking of telling you about my own feelings sometime soon."
+hi ""
+
+#hi "I guess, in that way, you saved me the effort."
+hi ""
+
+show lilly basic_giggle_cas_close_ss
+with charachange
+
+#"She raises her head a little and gives a tiny, amused giggle. I smile at how earnest it is, so girlish in its lightness. She collects herself soon afterward, her hair resting against my shoulder."
+""
+
+#hi "Feeling a bit better?"
+hi ""
+
+show lilly basic_smileclosed_cas_close_ss
+with charachange
+
+#"She gives a small nod."
+""
+
+show lilly basic_smile_cas_close_ss
+with charachange
+
+#li "You are thoughtful, Hisao. That's why I like you."
+li ""
+
+#hi "I'm sorry I'm like this. As much as I didn't want to make you concerned for me, I couldn't do anything to prevent it."
+hi ""
+
+show lilly basic_concerned_cas_close_ss
+with charachange
+
+#li "Don't apologize for it. Please don't."
+li ""
+
+#hi "Lilly?"
+hi ""
+
+show lilly basic_reminisce_cas_close_ss
+with charachange
+
+#li "Have I ever apologized for my blindness, even once? You can't help the way you were born, Hisao. There's no point in apologizing for who you are."
+li ""
+
+#"She says this with surprising conviction. In the end, it was perhaps this mentality which spurred her to befriend me in such a short time, in addition to her motherly instincts."
+""
+
+#"She did seem to become trusting very quickly, but I'd never questioned why. Now it seems obvious that she did so to help me as I went through one of the lowest points of my life."
+""
+
+#"I move to respond, but cut myself off as I feel her fingers run gently through my hair. I feel their soft and delicate touch moving downwards to trace the contours of my face, her palm finally settling on my cheek."
+""
+
+show lilly basic_weaksmile_cas_close_ss
+with charachange
+
+#li "You are a beautiful person, Hisao. Please, don't ever apologize for that."
+li ""
+
+#"For a moment, I'm utterly speechless. I slowly bend my head down, placing a tender kiss on her light, voluminous hair."
+""
+
+#hi "We're a couple of right old fools, aren't we?"
+hi ""
+
+show lilly basic_cheerful_cas_close_ss
+with charachange
+
+#li "…We are."
+li ""
+
+#"After a long calm, she speaks again."
+""
+
+show lilly basic_smile_cas_close_ss
+with charachange
+
+#li "Hisao?"
+li ""
+
+#hi "Yes?"
+hi ""
+
+show lilly basic_smileclosed_cas_close_ss
+with charachange
+
+#li "I…"
+li ""
+
+stop music fadeout 4.0
+
+show lilly basic_weaksmile_cas_close_ss
+with charachange
+
+#li "I wouldn't mind if you…"
+li ""
+
+#"I feel her hand tensing under mine, trembling slightly. My mouth opens, but try as I might I can't formulate a response to her proposition."
+""
+
+#hi "Lilly…"
+hi ""
+
+#"Before I can say another word, she slips her hand from under mine and tenderly holds the side of my face once more."
+""
+
+show lilly basic_pout_cas_close_ss
+with charachange
+
+#li "Please."
+li ""
+
+#"I give a peaceful smile, holding her hand against my cheek as I nod a single time."
+""
+
+#hi "Okay."
+hi ""
+
+play music music_heart fadein 0.5
+
+show lilly basic_smileclosed_cas_close_ss
+with charachange
+
+#"As I look into her eyes, she leans towards me. Her delicate lips touch mine as she guides herself with her hand."
+""
+
+#"She breaks off not a second later, faintly smiling."
+""
+
+show lilly basic_smile_cas_close_ss
+with charachange
+
+#li "I love you, Hisao."
+li ""
+
+show lilly basic_smileclosed_cas_close_ss
+with charachange
+
+#"We kiss again, this time with both of us meeting the other."
+""
+
+#"While the previous kiss was one of love, this is one of lust, our tongues meeting and our breathing heavy. After precious seconds we part, both our faces well and truly flushed."
+""
+
+#"Both of us bring our fingers to our lips in unison, recalling that fleeting feeling, rapidly becoming buried both by our urges and bashfulness."
+""
+
+show lilly basic_pout_cas_close_ss
+with charachange
+
+#"Lilly is the first to shift uncomfortably, though."
+""
+
+#hi "What is it?"
+hi ""
+
+show lilly basic_weaksmile_cas_close_ss
+with charachange
+
+#li "Should we… get more comfortable?"
+li ""
+
+#hi "Hmm? Ah, o-okay…"
+hi ""
+
+#"Now that she mentions it, this futon would be a bit too narrow to do much on. Considering the thoughts running through both our minds, it's no small wonder one of us has any measure of foresight left."
+""
+
+show lilly invis:
+    ypos 1.2
+with dissolvecharamove
+
+hide lilly
+with vpunch
+
+#"I take her hands and guide her sideways as I move, the brief and awkward dance ending with both of us tentatively sitting on the floor opposite each other."
+""
+
+#"As I reach forward to pull her top up, she stops after she moves her hands to do the same."
+""
+
+show lilly basic_concerned_cas_close_ss:
+    center
+    ypos 1.17
+with charaenter
+
+#li "You're shaking…"
+li ""
+
+#"I pause for a moment and look at my hands."
+""
+
+#"Sure enough, they're quivering slightly. Whether it's from nervousness or excitement, I'm not sure."
+""
+
+#hi "Uh… I guess I am."
+hi ""
+
+show lilly basic_weaksmile_cas_close_ss
+with charachange
+
+#li "So you're as nervous as I am, then?"
+li ""
+
+#"I withdraw my hands and sigh, steadying myself. We have plenty of time, so there's no need to rush this."
+""
+
+#hi "Sorry. It's my first time, so I'm a bit…"
+hi ""
+
+show lilly basic_cheerfulblush_cas_close_ss
+with charachange
+
+#"She giggles shakily, all but confirming what I reasonably deduced by now."
+""
+
+show lilly basic_smile_cas_close_ss
+with charachange
+
+#li "It's the same for me. I'm happy… we could share this together."
+li ""
+
+#"I match her smile twofold, leaning forward and taking her body in my arms as she reaches to hug me back."
+""
+
+#hi "I love you, Lilly."
+hi ""
+
+show lilly basic_smileclosed_cas_close_ss
+with charachange
+
+#li "You already said that."
+li ""
+
+#"I can't help grinning. Even in such a situation, she still has her wits about her."
+""
+
+hide lilly
+with charaexit
+
+#"Breaking our embrace, we decide to take off our own clothing. While it's easier this way, I don't doubt it's just an attempt to distract ourselves from our nerves."
+""
+
+#"With slightly stiff hands, I begin to slide the first button out from my shirt."
+""
+
+#"Once we remove the last of our clothes, which end up haphazardly piled behind us, my breath is taken by the sight in front of me."
+""
+
+label en_L17h:
+
+show lilly behind_reminisce_nak_ss
+with charaenter
+
+#"Her long, shapely legs, full hips and her breasts, plump but dainty… her slightly blushing face, delicate and reserved, is framed by the bangs of her hair."
+""
+
+#"Her hands, tightly held behind her, only serve to further accentuate her chest. Her tall and pale body is beautiful when bared."
+""
+
+#"This girl in front of me, reserved yet playful, astute yet hospitable, is the girl I've fallen in love with."
+""
+
+#"I lean forward, delicately taking her shoulders in my hands."
+""
+
+show lilly behind_listen_nak_close_ss
+with charachange
+
+#"As I do, she brings her hands to my chest. With a slightly uneven breath, we lean into a deep kiss."
+""
+
+#"I feel one of Lilly's hands slowly slide up to my shoulder, it and her head very gently moving forwards. Assuming her intent, I lean back onto the floor."
+""
+
+#hi "Ah…"
+hi ""
+
+scene evhunlock lilly_handjob_chest_normal_small
+show evh lilly_handjob_chest_normal:
+    xalign 0.7 yalign 1.0 subpixel True
+    ease 8.0 xalign 0.4 yalign 0.2
+with whiteout
+
+#"She lowers herself beside me, one hand stroking my hair as the other moves across my chest. The feeling of her breast against it is enough to excite me."
+""
+
+#"This must be her way of taking in what I've already seen of her; despite her lack of sight, she engraves every detail of my bare body and chest into her mind."
+""
+
+#"When her middle finger falls into the slight recess of my chest scar, a lingering effect of my operation so many months ago, she slowly runs her hand down its length."
+""
+
+show evhunlock lilly_handjob_chest_frown_small
+show evh lilly_handjob_chest_frown:
+    xalign 0.4 yalign 0.2
+with charachange
+
+#li "This is…"
+li ""
+
+#hi "The scar, from my surgery. They had to do this in order to operate on my heart."
+hi ""
+
+#"For a moment she's lost for words, the idea of such extensive scarring adding a new worry for her. Her expression changes from curiosity to apprehension."
+""
+
+#li "Should we… really be doing this kind of thing…?"
+li ""
+
+#"Those words bother me beyond what is rational. Lilly's face breaks my heart more than even her words possibly could, yet I don't even know the answer to her question."
+""
+
+#"I can't let this condition dominate me forever. It may not even be medically advisable, but I outright refuse to live my life in such a prison."
+""
+
+#hi "It's okay, Lilly. This much will be okay."
+hi ""
+
+show evh lilly_handjob_chest_normal
+with charachange
+
+#"Her troubled expression holds for a moment longer, but she eventually acquiesces, her hand moving to my lower chest and then my thigh."
+""
+
+show evh lilly_handjob_chest_normal:
+    zoom 1.0 xalign 0.4 yalign 0.2
+    ease 4.0 zoom 0.667 xalign 0.5 yalign 0.5
+with None
+
+show evh lilly_handjob_stroke_normopen:
+    zoom 1.0 xalign 0.4 yalign 0.2
+    ease 4.0 zoom 0.667 xalign 0.5 yalign 0.5
+with charachange
+
+#"With a look of slight surprise, she slowly moves her hands downwards, her breath catching as she brushes the side of my lower hair."
+""
+
+#"She tentatively moves her hand sideways, delicately touching the most honest part of my body."
+""
+
+show evh lilly_handjob_stroke_normshut_small:
+    truecenter 
+    zoom 1.0
+with charachange
+
+#li "Th… this is…"
+li ""
+
+#hi "Y-yeah."
+hi ""
+
+#"Our nervousness peaks as the act begins, her hand gently patting up and down as lightly as if it would break if breathed upon."
+""
+
+#"I'm not sure whether it's just to steady myself or because I want to steady her, but I take my free hand and hold the side of her face in it. The feeling of her hair and soft skin is nice, and it seems to lighten her mood a bit."
+""
+
+#"The mere fact that I'm being touched by her is surprisingly erotic. I feel my body relaxing as I submit to the pleasure overwhelming me."
+""
+
+#"Long minutes pass in almost total silence, our heavy breathing the only sound to be heard in the house. Lilly's fingers stop affectionately stroking my hair and she opens her lips once again."
+""
+
+show evh lilly_handjob_stroke_flustopen_small
+with charachange
+
+#li "Hisao…"
+li ""
+
+#"I wait a second for the rest of the sentence, but none is forthcoming. She may be trying to take the lead, but she's still incredibly nervous."
+""
+
+#"I can't help smiling as I stroke her hair from her face a couple of times, reassuring her. As nervous as she may be, I'm thankful that Lilly's taking the lead. I'd probably be just as anxious as she if I were attending to her."
+""
+
+show evh lilly_handjob_stroke_normopen_small
+with charachange
+
+#hi "Okay."
+hi ""
+
+#"She pauses a moment before giving a small nod, sitting up and shifting her legs over mine. Once again my breath is stolen by the magnificent sight of her body over mine."
+""
+
+show evh lilly_cowgirl_smile_small
+with whiteout
+
+#"I can only look on frozen as she delicately lowers herself, resting her reddened lips over me. She slowly begins to move her hips downwards, her softness enveloping my consciousness."
+""
+
+show evh lilly_cowgirl_weaksmile_small
+with charachange
+
+#"She takes a deep breath to collect herself, her face remaining steady. With her hands taking in my body in lieu of sight, the intimate situation muddles her usual efforts to compensate for lack of eye contact."
+""
+
+#"She gradually lowers herself onto me, her knees and hands supporting her as she does. Her entire body tenses as I enter, her expression obviously one of stifled pain."
+""
+
+#"Despite that, I can't help savoring the soft, warm feeling enveloping my consciousness, the surge of pleasure overcoming all my senses."
+""
+
+#"The last vestiges of it all but disappear inside her while her nails slightly scrape into my chest in an effort to stop herself from yelping in pain. A pained moan, too much for her to suppress completely, escapes from her lips."
+""
+
+#"As I open my mouth to comfort her, I see the barely visible red drops from between her legs."
+""
+
+#hi "Lilly, if it's too much…"
+hi ""
+
+scene evh lilly_cowgirl_strain_small
+with charachange
+
+#"She clenches her mouth tightly, quickly and forcefully shaking her head from side to side in defiance. After a couple of seconds she relaxes her body slightly, though she's still obviously far from being comfortable."
+""
+
+#li "I… it's okay… I'm okay."
+li ""
+
+scene evh lilly_cowgirl_frown_small
+with charachange
+
+#"She swallows hard, trying to collect herself."
+""
+
+#"Lifting herself slowly and bringing herself back down, she relaxes a little more as the feelings of pleasure begin to overtake those of pain."
+""
+
+scene evh lilly_cowgirl_strain_small
+with charachange
+
+#"Her breathing starts to match the same ragged patterns as mine, her body moving almost teasingly slowly. She looks as if she's slowly beginning to enjoy the act, my feelings finally reaching her."
+""
+
+#"I'm not sure if she's keeping herself at this speed for her sake or for mine, but either way… with this slow and steady pace, I think I can… keep my body in check. It's funny, in a way, that even now I'm depending on her."
+""
+
+#"For us to be joined together like this, our feelings so close… it makes me glad. To be sharing our first moment together like this… is an almost… overwhelming… feeling…"
+""
+
+#hi "I love you… Lilly…"
+hi ""
+
+scene evh lilly_cowgirl_cry_small
+with charachange
+
+#li "Hisao… Hisao…!"
+li ""
+
+#"I can feel her body tensing, her breathing and movements becoming steadily less carefully controlled. I'm happy to be making her feel so good, but as my thoughts become increasingly focused, I can feel myself rapidly nearing my limit."
+""
+
+scene white
+with Dissolve(3.0)
+
+#"Control of my body is instantaneously wrested from my mind as I grit my teeth hard, a loud moan escaping as I climax and my hips hit hers. Her body hunches over at the same moment, her breasts touching on my chest."
+""
+
+#"We stay locked in all-encompassing ecstasy for a brief moment, my mind completely taken by the feeling for a precious few seconds."
+""
+
+scene evh lilly_cowgirl_weaksmile_small
+with charachange
+
+#"It ends all too soon and our bodies collapse in exhaustion with Lilly barely staying on top of me."
+""
+
+#"I lifelessly manage to wrap my arms around her limp, sweating body, and for minutes we simply lay there, silently savoring the contact with each other while we recover from the experience."
+""
+
+#"Neither of us had thought ourselves prepared for such a thing, of that much I'm certain."
+""
+
+#"Entirely drained, far past the point of conversation, I look at her tired face. It looks as if the exertion, both physical and mental, has almost forced her to the verge of collapse."
+""
+
+#hi "I love you, Lilly."
+hi ""
+
+scene evh lilly_cowgirl_smile_small
+with charachange
+
+#"She nods weakly, rubbing my hair with her left hand. If we could simply remain together like this for an eternity, it would be a paradise like no other."
+""
+
+stop music fadeout 2.0
+
+scene black
+with dissolve
