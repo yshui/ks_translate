@@ -1,4 +1,4 @@
-﻿#**************************************
+#**************************************
 #Translated by nialv7@gmail.com aka. rorvn
 
 label en_L15:
@@ -342,27 +342,31 @@ show lilly basic_emb_cas_close
 with charachange
 
 #"She lowers her head slightly at the apology, absentmindedly rubbing her hand in what seems to be embarrassment."
-"我的道歉让她轻轻低下头，看似尴尬地搓着手掌。"
+#XXX
+"我的道歉让她轻轻低下头，似乎是出于尴尬，无意识地搓着手掌。"
 
 show lilly basic_weaksmile_cas_close
 with charachange
 
 #li "I really don't mind."
+#XXX
 li "没关系，我不在乎。"
 
 stop music fadeout 5.0
 
 #"Her answer doesn't seem to make much sense, given that what happened is pretty clearly my fault."
-""
+#XXX
+"她的回答不太说得通，因为这件事显然是我的过错。"
 
 #"I can't help grimacing at her, despite the fact that her dainty smile still holds. She must not like being reminded of the limitations her lack of sight imposes on her."
-""
+"就算她任然优雅地微笑着，我还是忍不住对她做了个鬼脸。她肯定是不愿有人提起失去视力给她带来的不便。"
 
 #"It's something I can't possibly fault her for. I've fallen prey to the same kind of feelings before, despite my condition not being nearly as ubiquitous in my life."
-""
+#XXX
+"对她的这种反应，我却没法说什么。我又成了我之前那种感情的俘虏，尽管我自己的问题并不像她的那样时刻缠着自己。"
 
 #"Neither of us any the happier, we head back to the various smells of cooking food coming from the kitchen."
-""
+"我们的心情没能好起来。我们回到了飘着各种食物香味的厨房里。"
 
 scene bg hok_lounge
 with shorttimeskip
@@ -370,162 +374,171 @@ with shorttimeskip
 play music music_another fadein 8.0
 
 #"I lay out the plates of food, steam slowly rising from the well-cooked rice and curry dishes, while Hanako lays out the cutlery."
-""
+"我盛好了食物，华子摆好了餐具。白色的蒸汽慢慢从米饭和咖喱上升起。"
 
 #"Knife one side, fork on the other. Western. How perfectly fitting for someone like Lilly."
-""
+"一边是刀，一边是叉。西式餐具。再合适莉莉不过了。"
 
 #"As we take our seats, taking careful heed of the dark red tablecloth hanging below our knees, Lilly emerges from the kitchen."
-""
+"我们留心着垂到我们膝下的暗红色桌布，刚刚好，莉莉就从厨房出现了。"
 
 #"In her hands are three glasses and… a bottle of wine?"
-""
+"她手里拿着三个杯子，和……一瓶酒？"
 
 #"As I recall our previous run-in with that devilish elixir, I hide my face in my palm."
-""
+#XXX LOL
+"回想起我们和上次那瓶恶魔琼浆的遭遇，我把脸埋在了手里。"
 
 #hi "Alcohol? Seriously?"
-hi ""
+hi "酒？你没搞错吧？"
 
 show lilly basic_cheerful_cas at center
 with charaenter
 
 #"She pauses as she reaches the table, a playful grin perched on her face."
-""
+#XXX playful grin: 坏笑？/恶作剧般的笑？/愉快的笑？
+"她摸到桌子，停了下来，脸上浮现出坏笑。"
 
 show lilly basic_giggle_cas
 with charachange
 
 #li "Akira specifically gave permission to take a bottle from her collection."
-li ""
+li "晃特别准许我从她的收藏里拿了这瓶酒。"
 
 #"Not only does she give alcohol to minors, she even lets them pilfer their own? The perfect model of a responsible adult Akira is not."
-""
+#XXX
+"她不仅送酒给未成年人，她还让他们自己去拿？晃还真是个负责人的好大人，才怪。"
 
 #"More to the point, though, is that this is hardly a meal deserving of alcohol. I'm starting to think Lilly's the type to easily become hooked on things."
-""
+"再说了，这样的简餐也用不着上酒。我开始怀疑莉莉是不是那种会轻易对东西产生依赖的人。"
 
 #hi "That's not really the problem. I don't really have any qualms with it, but didn't you have a bad experience with it last time?"
-hi ""
+#XXX 小改动
+hi "好吧，其实这也没什么问题。我真的没觉得有什么不安的。但是你难道忘了我们上次的经历了吗？"
 
 show lilly basic_smileclosed_cas
 with charachange
 
 #li "Last time was likely due to drinking too much, so a single glass shouldn't prove a problem."
-li ""
+li "上次是因为我们喝的太多了，小酌一杯肯定没事的。"
 
 show lilly basic_smile_cas
 with charachange
 
 #li "Think of it as a learning experience."
-li ""
+li "就当是吃一堑长一智吧。"
 
 #hi "I can't recall many learning experiences that made me feel rotten before putting me to sleep, but I'll take your word for it."
-hi ""
+hi "我可不觉得喝得烂醉倒在床上给我长了什么智。不过还是听你的吧。"
 
 show lilly basic_smileclosed_cas
 with charachange
 
 #"She dips an uninjured finger inside to feel the liquid level, tip against the bottom as the liquid rises up."
-""
+"她把一根没有受伤的手指伸进杯里感觉着液体的高度，然后慢慢倾斜酒瓶把酒倒出来。"
 
 #"The white of her finger almost seems to glow as the sunlight hits it, the delicate outline blurred and refracted by the glass."
-""
+#XXX
+"在阳光下她洁白的手指仿佛在自己发光，圆润的轮廓被玻璃的折射所模糊。"
 
 #"Her fingers are definitely longer than mine, the kind I'd think more suited to a pianist than a teacher. She'd likely have done well if she'd learned how to play."
-""
+"她的手指一定比我的长。她的手是一双更适合钢琴家，而不是老师的手。她要是学钢琴的话一定能学得很好。"
 
 hide lilly
 with charaexit
 
 #"We quickly dig into our meal, forks and knives clattering against plates."
-""
+#XXX
+"我们开始处理自己面前的食物。房间里响起刀叉和盘子相互碰撞的声音。"
 
 #"None of us are particularly eager to speak while eating, Lilly altogether too reserved for such a thing, Hanako probably too shy to start conversation, and I too busy savoring the food."
-""
+"我们都想在吃饭的时候讲话。莉莉的修养和习惯让她不能这么做。华子则太胆小了，不知道怎么挑起话头。而我则忙着消灭我的食物。"
 
 #"Such a pedestrian activity, eating together at a table. It seems so utterly normal, yet it makes me realize how long it's been since I've done something like this."
-""
+"一起坐在桌旁吃饭，多么平常的活动。不过这同时也让我回想起我们已经好久没这样过了。"
 
 #"Just the three of us, sitting around a single table eating as if we were a malformed family. Maybe this trip, as far away from everything as we are, was worth it."
-""
+"就我们三个，像过家家一般一起坐在一张桌旁吃饭。也许这次旅行，虽然地点在山南海北，也是值得的。"
 
 with shorttimeskip
 
 #"It takes quite a long time, but eventually we all finish our surprisingly filling meal. The wine, thankfully, has little effect given we've only had a glass or two each."
-""
+"我们花了好一会才吃完这顿量意外的大的午餐。谢天谢地，我们只喝了一两杯酒，所以没受太大影响。"
 
 #"I slump back into the seat, rubbing my stomach contentedly."
-""
+"我瘫在座位上，满足地摸着我的肚子。"
 
 #hi "I'm stuffed."
-hi ""
+hi "我吃撑了。"
 
 show lilly basic_smileclosed_cas at twoleft
 show hanako basic_smile_cas at tworight
 with charaenter
 
 #"Lilly pats her mouth with a napkin. Twice, only twice, and with evenly timed intervals inbetween. It's hard to tell sometimes whether how she acts is a well-trained routine or a well-rehearsed act."
-""
+#XXX
+"莉莉用纸巾轻拭嘴巴。两次，就两次，中间隔着相同的时间。有时候真的很难判断莉莉的行为是出于良好的教养，还是反复排练过的表演。"
 
 show lilly basic_satisfied_cas
 with charachange
 
 #li "I think I must be as well. Did you like it, Hanako?"
-li ""
+li "我想我也是。你觉得这餐怎么样，华子？"
 
 show hanako cover_bashful_cas
 with charachange
 
 #ha "Mm, it was nice."
-ha ""
+#XXX
+ha "嗯，挺好的。"
 
 show lilly basic_smileclosed_cas
 with charachange
 
 #li "Now that we're well fed, shall we be off?"
-li ""
+li "既然我们都吃饱喝足了，让我们出发吧?"
 
 #hi "Off? Where?"
-hi ""
+hi "出发？去哪？"
 
 show lilly basic_weaksmile_cas
 with charachange
 
 #li "Ah, you weren't privy to the discussion between Hanako and I earlier."
-li ""
+li "啊，对了，你没参与我刚才和华子的私下讨论。"
 
 #"I get the impression that she's having a subtle dig at my sleeping in."
-""
+#XXX
+"我感觉莉莉是话中带刺，责备我睡过了头。"
 
 show hanako basic_bashful_cas
 with charachange
 
 #ha "We'll be going into the town nearby."
-ha ""
+ha "我们要去附近的镇子。"
 
 #"I guess I should have expected two girls to take a holiday as an excuse to go shopping, no matter where on the planet they may be."
-""
+"我就该猜到她们会趁着休假去购物。女人真是不管走到天涯海角也不会忘了这个。"
 
 #"I am interested to see more around the north though, so this can only be a good thing."
-""
+"不过我也希望多看看南方的风景，所以跟她们去也不坏。"
 
 #hi "Sounds good. How long's the walk in, then?"
-hi ""
+hi "行。要走多久？"
 
 show lilly basic_smile_cas
 with charachange
 
 #li "It's supposed be around a mile to a mile and a half."
-li ""
+li "大概有两三公里吧。"
 
 stop music fadeout 4.0
 
 #hi "Nearby, huh? Great."
-hi ""
+hi "‘附近’是吧？不错。"
 
 #"Just great."
-""
+"真不错。"
 
 scene bg hok_road at bgright
 with shorttimeskip
@@ -535,81 +548,83 @@ play ambient sfx_parkambience fadein 6.0
 play music music_soothing fadein 0.5
 
 #"As we climb up the path surrounded by trees and undergrowth, I watch Lilly and Hanako walking ahead."
-""
+"我们爬上被树和灌木围绕着的小路。莉莉和华子走在前面。"
 
 #"The slight breeze all but whisks away the sound of Lilly's cane gently tapping on the ground. I notice that Lilly's since removed the bandaid now that the bleeding of her finger has stopped."
-""
+"清风拂过，却没能带走莉莉手杖点地的声音。我注意到莉莉一等血止住就揭掉了创口贴。"
 
 #"A deep, lung-filling breath of the fresh country air makes me wish all the harder that the air around home had been quite so clean."
-""
+#XXX
+"我深深吸了一口乡村的新鲜空气，想着要是我家那里的空气也能这么好就好了。"
 
 #"It can't have even been half a mile, but I'm already working up a sweat. It isn't a pleasantly cool day, though, so I shouldn't be too hard on myself for it."
-""
+"我们肯定连五百米都还没走到，但是我已经开始出汗了。当然今天也不是很凉爽，我不应该因为这种事太怪我自己。"
 
 #hi "Hey Lilly, how well do you know this town, anyway?"
-hi ""
+hi "嘿，莉莉！你们到底对这个镇子有多熟？"
 
 show lilly back_smileclosed_cas at center
 show lillyprop back_cane
 with charaenter
 
 #li "Since I spent quite a few of my vacations here up until I entered Yamaku, I'd say I know it fairly well. We used to drive there once a weekend then."
-li ""
+li "自从进山久以来我已经来这里旅行好多次了。我觉得我对这里还是挺熟的。过去我们每周末都会去镇子上。"
 
 #"How I wish Akira was here to drive us now."
-""
+"要是晃在这里就好了。她可以载我们到镇上。"
 
 #"I quickly take a moment to rub my hands a couple of times, staving off the oddly cold feeling in them."
-""
+"我搓了搓手掌，搓掉手上那种莫名的冷意。"
 
 #hi "Did you like it up here?"
-hi ""
+hi "你觉得这里怎么样？"
 
 show lilly cane_weaksmile_cas
 hide lillyprop
 with charachange
 
 #li "I'd say it was nice during winter, but as you can work out, summers get a little too hot for comfort. It's nice and quiet, at least."
-li ""
+li "这里的冬天很不错，不过你大概也注意到了，这里的夏天就有点太热了。不过至少这里环境不错，也很安静。"
 
 #li "My family's real house is quite far south. When they left Japan, my parents gave it to Akira and I. Only Akira lives there now, after my moving into Yamaku."
-li ""
+li "我家真正的房子在很南边的地方。我父母离开日本的时候把它留给了我很晃。不过现在只有晃住在那里了，我则住进了山久。"
 
 #hi "Well, quiet certainly describes this place."
-hi ""
+#XXX 意译
+hi "好吧，谢谢你的介绍。"
 
 #"Though lonely is how I'd put it."
-""
+"不过要我说的话这地方有点寂寞。"
 
 #"Other than the prophesied small town, there isn't another soul for miles around. Coming from a home nestled deep within the big city, it's certainly different."
-""
+"除了那现在还看不到影子的镇子，方圆几里连个人都没有。和居住在大城市深处比起来，真是完全不同的感受。"
 
 #"I think that if I'd not come to Yamaku, staying out in the country like this would be too much of a change to get used to."
-""
+"要是我没在山久待过的话，肯定很难习惯住在这样的乡下地方。"
 
 #"After getting accustomed to the school's isolation, though, the idea of living in a place such as this has become almost inviting. To be somewhere away from the hustle and bustle of the metropolitan centers."
-""
+"不过自从习惯了与世隔绝的学校之后，能远离都市的嘈杂和喧闹住在这种地方，开始变得像个好主意起来。"
 
 show lilly cane_smile_cas
 with charachange
 
 #li "So Hisao, have you been to Hokkaido before?"
-li ""
+li "对了久夫，你以前来过北海道吗？"
 
 #hi "Nah. I used to live down south, and we never had any field trips or holidays up this far."
-hi ""
+hi "没。我住在南方。无论是修学旅行还是放假，我都没来过这么远的地方。"
 
 show lilly cane_cheerful_cas
 with charachange
 
 #li "Well, it's a new experience for you then."
-li ""
+li "那这对你来说一定是个新鲜的经历啦。"
 
 #hi "Yeah, it is. I'm surprised at how nice it feels here."
-hi ""
+hi "是啊。这里环境简直好得让我吃惊。"
 
 #hi "How about you, Hanako?"
-hi ""
+hi "你呢，华子？"
 
 show lilly cane_cheerful_cas at twoleft
 show bg hok_road at center
@@ -619,31 +634,31 @@ show hanako emb_smile_cas at tworight
 with charaenter
 
 #"She shakes her head from side to side."
-""
+"她摇了摇头。"
 
 show hanako basic_bashful_cas
 with charachange
 
 #ha "It's my first time too."
-ha ""
+ha "我也是第一次。"
 
 #"As we continue walking, I begin to feel pins and needles in my legs. It's a little disturbing, given there's no reason for it to be happening."
-""
+"随着我们继续前进，我开始觉得仿佛有针在扎着我的腿。让我有点不舒服，考虑到这不该发生。"
 
 stop ambient fadeout 9.0
 stop music fadeout 4.0
 
 #hi "Could you two hold on a moment? I just need to…"
-hi ""
+hi "你们俩能等会吗？我需要……"
 
 show lilly cane_surprised_cas
 with charachange
 
 #li "Is anything wrong?"
-li ""
+li "你怎么了？"
 
 #hi "Nah, I've just got pins and needles in…"
-hi ""
+hi "没啥，我就是觉得腿有点……"
 
 window hide
 
@@ -678,23 +693,24 @@ play music music_tragic fadein 0.5
 window show
 
 #"My vocal cords suddenly become taut as my chest tightens instantaneously. I quickly pull my upper arm over it, trying to quell the shot of pain spreading throughout my entire body."
-""
+"胸前突然袭来的疼痛抽紧了我的声带。我用手捂住前胸，试图平息从胸口袭向全身的疼痛。"
 
 show lilly cane_reminisce_cas
 show hanako defarms_strain_cas
 with charachange
 
 #li "Hisao?"
-li ""
+li "久夫？"
 
 #"Lilly's face is only mildly concerned, not knowing the sight which Hanako's recoiling from."
-""
+"莉莉的脸上只露出了一点着急，她看不到这吓坏了华子的一幕。"
 
 #hi "I'm fine, I'm… fine. Just… tired…"
-hi ""
+hi "我没事，我……没事……就是……累了……"
 
 #"I remove my arm from my chest and force myself to begin walking again. It's just a minor heart flutter, so it'll pass like the others."
-""
+#XXX
+"我把手从胸口挪开，强迫自己重新走起来。就是一次短暂的心跳失常，很快就没事了，和以前一样。"
 
 play sound sfx_heartslow
 
@@ -705,7 +721,8 @@ show heartattack residual
 with Dissolve (0.8)
 
 #"It only takes a couple of steps before my body violently revolts against me, my legs suddenly beginning to give way underneath me and all tension in my knees seeming to evaporate."
-""
+#XXX
+"我才走了几步，就遭到了身体的强烈反抗。我的腿一下子没了力气，肌腱中的张力仿佛消失了一样。"
 
 scene bg hok_road:
     xalign 0.5 yalign 0.52 rotate 0 zoom 1.0
@@ -721,41 +738,41 @@ play sound sfx_pillow
 with vpunch
 
 #"Before I can react they uselessly give way under my weight, leaving me only just enough time to brace myself and fall onto all fours."
-""
+"我还没反应过来，我的腿就已经屈服在了我的体重执行。我勉强在四肢着地调整了下姿势。"
 
 #hi "Ah, damn…"
-hi ""
+hi "啊，见鬼……"
 
 show hanako defarms_shock_cas
 with charachange
 
 #ha "Hisa… AAAAH!"
-ha ""
+ha "久……啊啊啊啊！"
 
 #"As I look up to her I realize my face is still taut with pain, only adding that much more to her worrying."
-""
+"我抬起头向她看去，然后才反应过来我的脸还在因为痛苦而扭曲着。这对减轻她的担心可没什么好处。"
 
 show lilly cane_oops_cas
 with charachange
 
 #li "Hisao!? Hanako, tell me what's going on!"
-li ""
+li "久夫！？久夫，告诉我发生了什么！"
 
 #li "Hanako, tell me!"
-li ""
+li "华子，告诉我！"
 
 show hanako def_strain_cas_close
 with characlose
 
 #"Hanako quickly moves to my side as Lilly almost panics, having little clue as to exactly how bad a condition I'm in. While she stands there petrified, I lower my face and take a deep breath."
-""
+"华子很快跑到了我旁边。莉莉吓坏了，不知道我的状况到底有多坏，呆呆地站着。我低下头，深深吸了一口气。"
 
 scene black
 show heartattack alpha
 with shuteyefast
 
 #"I come to a realization that makes me endlessly irritated with my stupid self. With all the excitement of my new surroundings, I'd entirely neglected to take my medications last night or even this morning."
-""
+"我想起了一件事，让我开始讨厌起自己这个笨蛋来。出于对新环境的兴奋，我昨晚和今晨都忘了吃药了。"
 
 stop music fadeout 9.0
 
@@ -763,10 +780,10 @@ hide heartattack
 with Dissolve(3.0)
 
 #"Taking another breath, the acute pain in my chest begins to die down as suddenly as it had arrived."
-""
+"我又吸了一口气，胸口尖锐的疼痛就像它来的时候一样，飞快地褪去了。"
 
 #"Thank God. Thank God. Thank God, thank God, thank God."
-""
+"谢天谢地，谢天谢地，谢天谢地。"
 
 play ambient sfx_parkambience fadein 6.0
 
@@ -776,41 +793,42 @@ show hanako def_strain_cas_close at tworight
 with openeye
 
 #"As it does, I become acutely aware of the sweat by now pouring off my face and the two scared girls around me."
-""
+"随着痛苦的消退，我开始感觉到我脸上如雨般落下的汗水，也认识到有两个吓坏了的女孩就站在我旁边。"
 
 show lilly cane_reminisce_cas
 with charachange
 
 #li "Hisao!"
-li ""
+li "久夫！"
 
 #hi "I'm fine, Lilly. I'm… fine."
-hi ""
+hi "我没事，莉莉。我……没事。"
 
 show hanako defarms_strain_cas_close
 play sound sfx_impact
 with vpunch
 
 #"I screw up my brow in an effort to lever myself up, Hanako's arms quickly moving to catch me if I fall as I stumble a bit before regaining my balance."
-""
+#XXX Bad
+"试图站起来的努力让我的眉毛拧到了一起。华子飞快地把我掺起来，我摇晃了一下才重新找回平衡。"
 
 #"I look to Lilly and Hanako, worry written on both their faces. I feel awful. Utterly awful."
-""
+"我看向华子和莉莉。担心写满了她们的脸。我感觉很糟糕。糟透了。"
 
 show lilly cane_sad_cas
 with charachange
 
 #li "I think we should go back."
-li ""
+li "我觉得我们应该回去。"
 
 #hi "I…"
-hi ""
+hi "我……"
 
 #"Realizing the futility of protesting, I look away in frustration."
-""
+"认识到反抗是无用的，我失望地别过了头。"
 
 #hi "Fine."
-hi ""
+hi "好吧。"
 
 stop ambient fadeout 2.0
 
@@ -837,16 +855,16 @@ $ renpy.music.set_volume(0.2, 0.0, channel="ambient")
 play ambient sfx_cicadas fadein 2.0
 
 #"I open my eyes groggily, completely bereft of energy."
-""
+"我睁开惺忪的眼睛，浑身一点力气都没有。"
 
 #"For a while, I simply lie down lifelessly, staring at the ceiling as I review the events of the morning in an attempt to organize my thoughts."
-""
+"我无力地躺着，盯着天花板，回想着早上发生的事，试图整理我的思路。"
 
 #"We went to walk to town. My heart nearly gave way. We came back. I took my pills. I slept."
-""
+"我们打算步行到镇子上。我的心脏出了问题。我们又回来了。我吃了药，就睡了。"
 
 #"I can only remember each period of time as a snapshot, but the timeline is clear enough. The memory of the girls' faces as I struggled to stand is an unpleasant one, stinging my feelings harshly."
-""
+"我的记忆只是一个个的断片，但是整个时间线足够清晰。记忆中女孩们看我试着站起来时候担心的脸让我觉得不舒服，刺痛着我。"
 
 #"If I look at the ceiling hard enough, I can imagine the tile edges and small dimples of the ceiling in the hospital. That fact alone is enough to make me sit up and try to pull myself together."
 ""
@@ -885,17 +903,17 @@ with Fade(0.5, 0.2, 3.0, color="#fff")
 ""
 
 #hi "Lilly?"
-hi ""
+hi "莉莉？"
 
 scene bg hok_wheat_ss at right
 show lilly back_pout_cas_ss at center
 with charaenter
 
 #"She simply nods."
-""
+"她点了点头。"
 
 #hi "Where's Hanako?"
-hi ""
+hi "华子呢？"
 
 show lilly back_listen_cas_ss
 with charachange
@@ -922,19 +940,19 @@ show lilly back_sad_cas_ss
 with charachange
 
 #li "Remember when I talked of my family, Hisao?"
-li ""
+li "还记得我告诉过你关于我的家庭吗，久夫？"
 
 #hi "Your family…"
-hi ""
+hi "你的家庭……"
 
 #"I look downwards in thought, sifting through my scattered memories. The event seems to leap ready to hand when I search for it, rising to the surface as soon as it was recalled."
 ""
 
 #hi "After Hanako's birthday party?"
-hi ""
+hi "是在华子生日之后吗？"
 
 #"She gives a single, simple nod."
-""
+"她点了下头。"
 
 show lilly back_pout_cas_ss
 with charachange
@@ -969,10 +987,10 @@ show lilly back_sad_cas_ss
 with charachange
 
 #li "Don't apologize… please don't apologize…"
-li ""
+li "不要道歉……请你不要说对不起……"
 
 #hi "Lilly…?"
-hi ""
+hi "莉莉……？"
 
 show lilly basic_concerned_cas_ss
 with charachange
@@ -1023,10 +1041,10 @@ li ""
 ""
 
 #hi "You idiot."
-hi ""
+hi "笨蛋。"
 
 #li "Hi… sao?"
-li ""
+li "久……夫?"
 
 #"For a fleeting moment, I feel her body become still. The only movement to be felt is the calm afternoon breeze."
 ""
@@ -1067,7 +1085,7 @@ li "久夫！久夫！久夫！"
 hi "没事的，莉莉。我绝不会丢下你的。"
 
 #hi "I promise."
-hi "我"
+hi "我保证。"
 
 stop music fadeout 6.0
 
