@@ -551,7 +551,7 @@ play music music_soothing fadein 0.5
 "我们爬上被树和灌木围绕着的小路。莉莉和华子走在前面。"
 
 #"The slight breeze all but whisks away the sound of Lilly's cane gently tapping on the ground. I notice that Lilly's since removed the bandaid now that the bleeding of her finger has stopped."
-"清风拂过，却没能带走莉莉手杖点地的声音。我注意到莉莉一等血止住就揭掉了创口贴。"
+"清风拂过，几乎带走了莉莉手杖点地的声音。我注意到莉莉一等血止住就揭掉了创口贴。"
 
 #"A deep, lung-filling breath of the fresh country air makes me wish all the harder that the air around home had been quite so clean."
 #XXX
@@ -867,25 +867,25 @@ play ambient sfx_cicadas fadein 2.0
 "我的记忆只是一个个的断片，但是整个时间线足够清晰。记忆中女孩们看我试着站起来时候担心的脸让我觉得不舒服，刺痛着我。"
 
 #"If I look at the ceiling hard enough, I can imagine the tile edges and small dimples of the ceiling in the hospital. That fact alone is enough to make me sit up and try to pull myself together."
-""
+"看着天花板久了以后，那上面的花纹在我眼里慢慢变得和医院的天花板一样。我坐了起来，我受够了这种孤单的感觉了。"
 
 #"I scratch the back of my disheveled hair, glancing around the room. Lilly and Hanako are nowhere to be seen, and the television's turned off."
-""
+"我挠着鸟窝一般的头发，环视着房间。莉莉和华子都不在，电视也关掉了。"
 
 #"The clock above it says it's pretty late in the afternoon. The noticeably reddened sky outside the windows confirms it further."
-""
+"墙上的钟告诉我现在已经接近晚上了。窗外的天上映出夕阳的红色，证实了这一点。"
 
 #"I turn and pick myself off the futon, swaying slightly as I put my arms out for balance. I suppose I'd better go look for the girls to see if they're… all right…"
-""
+"我从被窝里翻身战起来。我摇晃了一下，赶紧伸出手臂保持平衡。我觉得我最好去找她们，确保她们……没事……"
 
 #"As I look out the window, I faintly see something in the distance."
-""
+"我从窗户向外看去，但是看不清远处的东西。"
 
 #"Straining my eyes, I can just make out the shape of a person's figure. Her long blonde hair, swaying in the faint breeze, makes her almost seem to melt into the bright yellow of the wheat field."
-""
+"我眯起眼睛，才勉强看到一个人的形状。她的金色长发随风飘动，让她溶进了这片同样金黄的麦地之中。"
 
 #"Without a second thought, I leave the room to follow that lone apparition."
-""
+"我想也没想，就离开了房间，追随这孤单的魅影去了。"
 
 stop ambient fadeout 2.0
 play music music_innocence fadein 14.0
@@ -894,13 +894,13 @@ scene bg hok_wheat_ss at Fullpan(8.0)
 with Fade(0.5, 0.2, 3.0, color="#fff")
 
 #"The brightness of the setting sun assaults my freshly woken eyes, forcing me to avert them until they adjust."
-""
+"明亮的落日刺痛着我的双眼，我只能移开眼睛直到它们适应。"
 
 #"The long, yellow strands of wheat brush against my legs as I wade through them, the densely-grown field making it hard to advance."
-""
+"长长的金色麦穗抚过我穿行在麦子中的双腿。麦子长的很密，要穿过它们并不容易。"
 
 #"Regardless, my eyes stay fixed ahead, true to that solitary figure. Within minutes I reach her, meters behind her turned back."
-""
+"我的目光坚定地对着那孤单的身影。我几分钟就走到了她身后，在离他几米的地方停了下来。"
 
 #hi "Lilly?"
 hi "莉莉？"
@@ -919,22 +919,23 @@ show lilly back_listen_cas_ss
 with charachange
 
 #li "She's in bed. She went to sleep after I calmed her down."
-li ""
+#XXX 是哄吧。
+li "在床上。我哄她去睡了。"
 
 #"She says it matter-of-factly and with as few words as possible, as if saying any more was strictly forbidden."
-""
+"她陈述事实般地简短说着，仿佛多说一点话都是被禁止的。"
 
 #"There's something different about her. Her normally confident figure seems oddly fragile, her body offering no resistance to the breeze blowing her skirt."
-""
+"现在的她有点不同。她以往自信的身形现在显得出奇得脆弱，她的身体在微风中仿佛随时会倒下。"
 
 #"The strands of wheat sway from side to side while a deafening pause passes, the only sound being their rustling."
-""
+"一阵长长地停顿。四周只有麦穗左右摇晃发出的沙沙声。"
 
 #"As we stand in the field alone, I know what I have to ask."
-""
+"此刻只有我们两个站在这里，我明白了我该问什么。"
 
 #hi "What's wrong, Lilly? You're not acting like you usually do."
-hi ""
+hi "有什么不对吗，莉莉？你和平常有点不一样。"
 
 show lilly back_sad_cas_ss
 with charachange
@@ -946,7 +947,7 @@ li "还记得我告诉过你关于我的家庭吗，久夫？"
 hi "你的家庭……"
 
 #"I look downwards in thought, sifting through my scattered memories. The event seems to leap ready to hand when I search for it, rising to the surface as soon as it was recalled."
-""
+"我低头陷入沉思，过滤这我零乱的记忆。那件事很快就跳进了我的脑海。"
 
 #hi "After Hanako's birthday party?"
 hi "是在华子生日之后吗？"
@@ -958,28 +959,29 @@ show lilly back_pout_cas_ss
 with charachange
 
 #li "It was nice… back then. You and I, celebrating with Hanako. Simply sharing presents, talking, having fun together. It was almost as if we were a family. One small, misshapen family."
-li ""
+li "那时候真是开心啊。你和我，给华子过生日。交换礼物，一起说说话，就很开心了。我们就像一个家庭一样。一个小小的、畸形的家庭。"
 
 show lilly back_sad_cas_ss
 with charachange
 
 #li "I thought that could just go on forever. Just the three of us, happily together."
-li ""
+li "我还以为能永远这样下去。我们三个，开心地在一起。"
 
 #"She takes a long breath, a slight shakiness to it just barely audible through the moving air."
-""
+#XXX
+"她深深吸了口气，有些些微颤抖，透过流动的空气勉强能感觉出来。"
 
 show lilly back_pout_cas_ss
 with charachange
 
 #li "Even if my family was so far away… as long as we were together, that was all I needed. I don't want to lose you, Hisao."
-li ""
+li "就算我的家人都在远方……只要我们能在一起，就足够了。我不想失去你，久夫。"
 
 #li "I didn't even realize how afraid I was of losing someone else until today. Until…"
-li ""
+li "我从没意识到我这么害怕失去什么人，直到今天。直到……"
 
 #hi "I'm sorry, Lilly. I know my body's weak, but even then I make the most stupid of mistakes."
-hi ""
+hi "对不起，莉莉。我知道我的身体这么虚弱还这么不小心。"
 
 stop music fadeout 4.0
 
@@ -996,13 +998,14 @@ show lilly basic_concerned_cas_ss
 with charachange
 
 #"She turns to face me, her pale cheeks stained with tears."
-""
+"她转过来面对我，脸上挂着泪痕。"
 
 show lilly basic_concerned_cas_close_ss
 with characlose
 
 #"One misguided step after another she stumbles towards me, her arms held out in search of so much as a faint brush against me."
-""
+#XXX 太简略了？
+"她磕磕绊绊地向我走来，伸着手臂探寻着我的方位。"
 
 play music music_romance fadein 2.0
 
@@ -1020,25 +1023,25 @@ with GenericWhiteout(1.0, 0.0, 4.0)
 window show
 
 #"My heart doesn't race nor pound as I step towards Lilly, gently taking and steadying her in my arms as she quickly clutches to me, sobbing."
-""
+"我走向莉莉的时候心跳没有加快，我轻轻接过她的手臂，扶住她。她马上紧紧地抱着我，抽泣着。"
 
 #"With her face trembling against my shoulder, the next words from her mouth are the last I expected."
-""
+"她的脸在我肩上颤抖着，然后说出来我意料不到的词语。"
 
 #li "I love you, Hisao. I love you, I love you, I love you, I love you, I love you!"
-li ""
+li "我爱你，久夫。我爱你，我爱你，我爱你，我爱你，我爱你！"
 
 #li "Don't go away, I beg of you. Never, ever go away. I love you, so please…!"
-li ""
+li "不要走，我求你了。永远都不要走。我爱你，所以……！"
 
 #"So… that's why she's been acting like this. That tender voice when I called her, her thoughtless concern at the slightest pain I might feel…"
-""
+"这……就是她表现奇怪的原因。所以她回应我的呼喊时才会那么温柔，所以她才会这样出于本能地照顾我收到的每一点伤害。"
 
 #"After having been left in Japan without her family, and with only Akira, Hanako and I around, she was afraid of losing yet another person who was close to her. She was genuinely worried for me."
-""
+"她被父母留在日本之后，身边只有晃、华子和我。她一定非常害怕再失去一位亲近的人。她是真的在关心我。"
 
 #"It's a strange feeling. A mix of surprise and sorrow, yet also of the deepest gratitude I think I've ever felt. The only reaction I can muster among my conflicting emotions is a calm sigh."
-""
+"我的心情很复杂。既有吃惊，也有悲伤，又有我感受过的最深刻的感激之情。激烈冲突的感情让我只能叹了一口气。"
 
 #hi "You idiot."
 hi "笨蛋。"
@@ -1047,25 +1050,25 @@ hi "笨蛋。"
 li "久……夫?"
 
 #"For a fleeting moment, I feel her body become still. The only movement to be felt is the calm afternoon breeze."
-""
+"有那么一瞬间，她的身体僵直了。只有微风还在吹过她的身体。"
 
 #hi "I said it before, didn't I? It's only natural to feel concerned about those around you."
-hi ""
+hi "我说过的吧？为身边的人操心没什么奇怪的。"
 
 #hi "I'm still here, and I'll always be here, because I want to see you more each day. To share in your happiness, to support you in your sadness…"
-hi ""
+hi "我还在这里，并且我会一直陪着你。因为我每天都在变得更想见到你，和你同甘共苦……"
 
 #hi "But most of all, I'll still be here because I want to see your smile. Your true smile."
-hi ""
+hi "最重要的是，我想看到你的笑容。你真心的笑容。"
 
 #"A single gust of wind rustles the long strands of wheat, a second's silence passes."
-""
+"一阵风吹动了身边的麦穗，几秒的沉默过去了。"
 
 #hi "Smile when you want to smile. Cry when you want to cry. I love you, Lilly. So you don't have to hold back any more."
-hi ""
+hi "想笑时便笑。想哭时便哭。我爱你，莉莉。所以你不用再隐藏你的感情了。"
 
 #"With that, her arms clutch my back as tightly as she can, her face buried beside mine."
-""
+"听了我的话，她的手臂抱的更紧了，她的脸埋在我的肩上。"
 
 scene ev lilly_wheat_small:
     xalign 0.5 yalign 0.5 zoom 1.1 subpixel True
@@ -1073,13 +1076,13 @@ scene ev lilly_wheat_small:
 with whiteout
 
 #"Her tears fall down my back and she cries unrestrainedly as the last of her resistance melts away."
-""
+"我打破了她最后一道防线。她止不住地哭着，眼泪顺着我的背留下。"
 
 #li "Hisao! Hisao! Hisao!"
 li "久夫！久夫！久夫！"
 
 #"I close my eyes and bring my head down to her shoulder, holding her shaking frame tightly."
-""
+"我闭上眼睛把头靠在她的肩上，牢牢抱住她颤抖的身体。"
 
 #hi "It's okay, Lilly. I'll never go away."
 hi "没事的，莉莉。我绝不会丢下你的。"
@@ -1097,19 +1100,20 @@ scene bg hok_lounge_ss
 with locationskip
 
 #"We slowly walk back to the house, holding each other tightly as we take a seat inside. Lilly leans her head onto my shoulder as I put my arm around her waist."
-""
+#XXX hold是握手吧？
+"我们紧紧地握住对方的手，慢慢走回房子里坐下来。莉莉把头靠在我的肩上，我则用手臂搂着她的腰。"
 
 #"Neither of us has any want to break the silence."
-""
+"我们都不想打破平静。"
 
 #"With her eyes shut it's hard to work out whether she's fallen asleep. Not that I mind: the warmth of her body leaning against me, the softness of her hand delicately held in mine…"
-""
+"她闭着眼睛的时候会让人很难弄清她是不是睡了。但我也不在乎：靠着我的温暖的身体，我手中柔软的她的手……"
 
 #"For a long, long time we sit leaning against one another, sharing our warmth and feelings as night eventually begins to settle in."
-""
+"我们就这样互相靠着，感受着对方的温暖，知道夜幕开始慢慢降临。"
 
 #"Lilly's gentle, soft voice ends the silence."
-""
+"莉莉温和，轻柔的声音打破了平静。"
 
 show lilly basic_smileclosed_cas_close_ss at center
 with charaenter
@@ -1117,118 +1121,124 @@ with charaenter
 play music music_twinkle fadein 6.0
 
 #li "Thank you, Hisao."
-li ""
+li "谢谢你，久夫。"
 
 #hi "Thank you?"
-hi ""
+hi "谢我？"
 
 show lilly basic_smile_cas_close_ss
 with charachange
 
 #li "For returning my feelings."
-li ""
+#XXX 怎么说？
+li "因为你回报了我的感情。"
 
 #hi "Did you think I wouldn't?"
-hi ""
+hi "你以为我不会？"
 
 show lilly basic_weaksmile_cas_close_ss
 with charachange
 
 #li "There was the possibility."
-li ""
+li "那也有可能。"
 
 #"I take a deep breath in thought. That much was only my fault."
-""
+"我深吸一口气陷入思考。她会这么想只可能是我的错。"
 
 #hi "It's funny, actually. I was thinking of telling you about my own feelings sometime soon."
-hi ""
+hi "说来也巧。其实我也在想要不要告诉你我对你的感情。"
 
 #hi "I guess, in that way, you saved me the effort."
-hi ""
+#XXX 麻烦？
+hi "我猜，你替我省了麻烦。"
 
 show lilly basic_giggle_cas_close_ss
 with charachange
 
 #"She raises her head a little and gives a tiny, amused giggle. I smile at how earnest it is, so girlish in its lightness. She collects herself soon afterward, her hair resting against my shoulder."
-""
+"她抬起头，轻轻地、愉快地笑了一下。我也为了这一笑的真挚和少女气笑了起来。她很快平静下来，头发散乱在我的肩上。"
 
 #hi "Feeling a bit better?"
-hi ""
+hi "感觉好点了？"
 
 show lilly basic_smileclosed_cas_close_ss
 with charachange
 
 #"She gives a small nod."
-""
+"她轻轻点了点头。"
 
 show lilly basic_smile_cas_close_ss
 with charachange
 
 #li "You are thoughtful, Hisao. That's why I like you."
-li ""
+li "你总是那么心细，久夫。所以我才喜欢你。"
 
 #hi "I'm sorry I'm like this. As much as I didn't want to make you concerned for me, I couldn't do anything to prevent it."
-hi ""
+hi "我对我现在的状况很抱歉。我不想让你担心我，但我什么也做不到。"
 
 show lilly basic_concerned_cas_close_ss
 with charachange
 
 #li "Don't apologize for it. Please don't."
-li ""
+li "别为这个道歉。真的别。"
 
 #hi "Lilly?"
-hi ""
+hi "莉莉？"
 
 show lilly basic_reminisce_cas_close_ss
 with charachange
 
 #li "Have I ever apologized for my blindness, even once? You can't help the way you were born, Hisao. There's no point in apologizing for who you are."
-li ""
+#XXX
+li "我为我看不见道过歉吗？你不能决定你生下来是什么样子，久夫。为这种事道歉没有意义。"
 
 #"She says this with surprising conviction. In the end, it was perhaps this mentality which spurred her to befriend me in such a short time, in addition to her motherly instincts."
-""
+#XXX
+"她的说法出人意料的令人信服。说到底，可能就是这种思想让她让她在短时间内和我成了朋友，如果不算她的母性的话。"
 
 #"She did seem to become trusting very quickly, but I'd never questioned why. Now it seems obvious that she did so to help me as I went through one of the lowest points of my life."
-""
+#XXX
+"她确实好像很快就变得信任我起来，但我从没想过为什么。现在看来，她一定是为了帮助我渡过人生的最低点。"
 
 #"I move to respond, but cut myself off as I feel her fingers run gently through my hair. I feel their soft and delicate touch moving downwards to trace the contours of my face, her palm finally settling on my cheek."
-""
+"我想要回应，但是莉莉穿过我头发的手打断了我。我感觉到柔软精致的手指沿着我脸的轮廓移下，她的手掌停在了我的脸颊上。"
 
 show lilly basic_weaksmile_cas_close_ss
 with charachange
 
 #li "You are a beautiful person, Hisao. Please, don't ever apologize for that."
-li ""
+li "你是一个美好的人，久夫。所以请不要为此感到抱歉。"
 
 #"For a moment, I'm utterly speechless. I slowly bend my head down, placing a tender kiss on her light, voluminous hair."
-""
+"我一时说不出话来。我慢慢弯下头，在她茂密而蓬松的金色长发上吻了一下。"
 
 #hi "We're a couple of right old fools, aren't we?"
-hi ""
+#XXX
+hi "看来我们真是一对不可救药的笨蛋情侣呢，你说是不是？"
 
 show lilly basic_cheerful_cas_close_ss
 with charachange
 
 #li "…We are."
-li ""
+li "……嗯。"
 
 #"After a long calm, she speaks again."
-""
+"长长地沉默之后，她再次开口了。"
 
 show lilly basic_smile_cas_close_ss
 with charachange
 
 #li "Hisao?"
-li ""
+li "久夫？"
 
 #hi "Yes?"
-hi ""
+hi "嗯？"
 
 show lilly basic_smileclosed_cas_close_ss
 with charachange
 
 #li "I…"
-li ""
+li "你……"
 
 stop music fadeout 4.0
 
@@ -1236,28 +1246,28 @@ show lilly basic_weaksmile_cas_close_ss
 with charachange
 
 #li "I wouldn't mind if you…"
-li ""
+li "你可以……"
 
 #"I feel her hand tensing under mine, trembling slightly. My mouth opens, but try as I might I can't formulate a response to her proposition."
-""
+"我感激到她的手在我手中收紧了，轻微地发着抖。我张大了嘴，但怎么也想不出该怎么回答她的提议。"
 
 #hi "Lilly…"
-hi ""
+hi "莉莉……"
 
 #"Before I can say another word, she slips her hand from under mine and tenderly holds the side of my face once more."
-""
+"我还来不及再说一个字，她就抽出了手，有一次捧住了我的脸。"
 
 show lilly basic_pout_cas_close_ss
 with charachange
 
 #li "Please."
-li ""
+li "求你了。"
 
 #"I give a peaceful smile, holding her hand against my cheek as I nod a single time."
-""
+"我平静的笑了，握住她贴在我脸颊上的手，点了一下头。"
 
 #hi "Okay."
-hi ""
+hi "好吧。"
 
 play music music_heart fadein 0.5
 
@@ -1265,49 +1275,49 @@ show lilly basic_smileclosed_cas_close_ss
 with charachange
 
 #"As I look into her eyes, she leans towards me. Her delicate lips touch mine as she guides herself with her hand."
-""
+"我看着她慢慢向我靠来的眼睛。她用手照准位置，把她精致的嘴唇印在了我的上面。"
 
 #"She breaks off not a second later, faintly smiling."
-""
+"她马上移开了，微微笑着。"
 
 show lilly basic_smile_cas_close_ss
 with charachange
 
 #li "I love you, Hisao."
-li ""
+li "我爱你，久夫。"
 
 show lilly basic_smileclosed_cas_close_ss
 with charachange
 
 #"We kiss again, this time with both of us meeting the other."
-""
+"我们又吻了一次，这一次我们两迎合着对方。"
 
 #"While the previous kiss was one of love, this is one of lust, our tongues meeting and our breathing heavy. After precious seconds we part, both our faces well and truly flushed."
-""
+"前一次是爱之吻，这一次则是欲望之吻。我们的舌头搅在一起，呼吸变得沉重起来。宝贵的几秒之后，我们分开了。我们的脸都兴奋地红着。"
 
 #"Both of us bring our fingers to our lips in unison, recalling that fleeting feeling, rapidly becoming buried both by our urges and bashfulness."
-""
+"我们不约而同地把手指贴上嘴唇，回忆着因为我们的欲望和羞怯而转瞬即逝的感觉。"
 
 show lilly basic_pout_cas_close_ss
 with charachange
 
 #"Lilly is the first to shift uncomfortably, though."
-""
+"莉莉是第一个开始不舒服地扭动的人。"
 
 #hi "What is it?"
-hi ""
+hi "怎么了？"
 
 show lilly basic_weaksmile_cas_close_ss
 with charachange
 
 #li "Should we… get more comfortable?"
-li ""
+li "可以让我们……更舒服一点吗？"
 
 #hi "Hmm? Ah, o-okay…"
-hi ""
+hi "嗯？啊，呃……行……"
 
 #"Now that she mentions it, this futon would be a bit too narrow to do much on. Considering the thoughts running through both our minds, it's no small wonder one of us has any measure of foresight left."
-""
+"经她这么一提，这被窝对于要做点什么的我们来说确实太窄小了。不过考虑到我们现在都是欲火焚身，她还能想到这一点真是让我吃惊不小。"
 
 show lilly invis:
     ypos 1.2
@@ -1317,10 +1327,10 @@ hide lilly
 with vpunch
 
 #"I take her hands and guide her sideways as I move, the brief and awkward dance ending with both of us tentatively sitting on the floor opposite each other."
-""
+"我握住她的手，一边往旁边走一边为她指引方向。这短暂而尴尬的双人舞以我俩坐在地板上，试探地对着对方结束。"
 
 #"As I reach forward to pull her top up, she stops after she moves her hands to do the same."
-""
+"我出手脱她的上衣，她也做了同样的动作，但是半途停了下来。"
 
 show lilly basic_concerned_cas_close_ss:
     center
@@ -1328,67 +1338,68 @@ show lilly basic_concerned_cas_close_ss:
 with charaenter
 
 #li "You're shaking…"
-li ""
+li "你在发抖……"
 
 #"I pause for a moment and look at my hands."
-""
+"我也停了下来，看着自己的手。"
 
 #"Sure enough, they're quivering slightly. Whether it's from nervousness or excitement, I'm not sure."
-""
+"它们确实在轻微地抖着。至于是出于胆怯还是激动，我就分不清了。"
 
 #hi "Uh… I guess I am."
-hi ""
+hi "呃……好像是的……"
 
 show lilly basic_weaksmile_cas_close_ss
 with charachange
 
 #li "So you're as nervous as I am, then?"
-li ""
+li "看来你也和我一样紧张。"
 
 #"I withdraw my hands and sigh, steadying myself. We have plenty of time, so there's no need to rush this."
-""
+"我收回了手，叹了口气，稳住自己。我们还有时间，用不着急。"
 
 #hi "Sorry. It's my first time, so I'm a bit…"
-hi ""
+hi "不好意思。我这是第一次，所以……"
 
 show lilly basic_cheerfulblush_cas_close_ss
 with charachange
 
 #"She giggles shakily, all but confirming what I reasonably deduced by now."
-""
+"她颤抖着轻笑起来，基本证实了我的推测。"
 
 show lilly basic_smile_cas_close_ss
 with charachange
 
 #li "It's the same for me. I'm happy… we could share this together."
-li ""
+li "我也一样。我真高兴……我们能分享对方的第一次。"
 
 #"I match her smile twofold, leaning forward and taking her body in my arms as she reaches to hug me back."
-""
+"我双倍偿还了她的笑容，把莉莉向我抱来的身躯搂在怀里。"
 
 #hi "I love you, Lilly."
-hi ""
+hi "我爱你，莉莉。"
 
 show lilly basic_smileclosed_cas_close_ss
 with charachange
 
 #li "You already said that."
-li ""
+li "你刚才说过了。"
 
 #"I can't help grinning. Even in such a situation, she still has her wits about her."
-""
+#XXX or 她也还是这样风趣
+"我忍不住笑起来。就算在这样的情况下，她也能开的出玩笑。"
 
 hide lilly
 with charaexit
 
 #"Breaking our embrace, we decide to take off our own clothing. While it's easier this way, I don't doubt it's just an attempt to distract ourselves from our nerves."
-""
+"我们分开来。我们决定自己脱掉自己的衣服。虽说这样确实更容易一点，但我觉得其实我们只是想打消自己的紧张而已。"
 
 #"With slightly stiff hands, I begin to slide the first button out from my shirt."
-""
+"我用不太自然的动作解开了衬衫上的第一颗纽扣。"
 
 #"Once we remove the last of our clothes, which end up haphazardly piled behind us, my breath is taken by the sight in front of me."
-""
+"等我们的最后一件衣服也落进地上零乱的衣服堆之后，我为眼前的风景止住了呼吸。"
 
 label en_L17h:
 
@@ -1396,28 +1407,29 @@ show lilly behind_reminisce_nak_ss
 with charaenter
 
 #"Her long, shapely legs, full hips and her breasts, plump but dainty… her slightly blushing face, delicate and reserved, is framed by the bangs of her hair."
-""
+"她修长漂亮的腿，圆润的臀部和她丰满匀称的乳房……她的刘海衬着她精致内敛、染上了红晕的脸庞。"
 
 #"Her hands, tightly held behind her, only serve to further accentuate her chest. Her tall and pale body is beautiful when bared."
-""
+"她的手背在身后，更强调了她的胸部。她高挑白皙的裸体简直是一副美景。"
 
 #"This girl in front of me, reserved yet playful, astute yet hospitable, is the girl I've fallen in love with."
-""
+#XXX 这样选词没问题吗
+"我面前的这个女孩，内敛而不失娇俏，机敏但不会让人无法捉摸，正是和我坠入爱河的女孩。"
 
 #"I lean forward, delicately taking her shoulders in my hands."
-""
+"我身体向前，小心的把她的肩膀握在我的手里。"
 
 show lilly behind_listen_nak_close_ss
 with charachange
 
 #"As I do, she brings her hands to my chest. With a slightly uneven breath, we lean into a deep kiss."
-""
+"而她则把手放在我的胸膛上。短促的喘了口气之后，我们靠在一起深深地吻起来。"
 
 #"I feel one of Lilly's hands slowly slide up to my shoulder, it and her head very gently moving forwards. Assuming her intent, I lean back onto the floor."
-""
+"我感觉到莉莉的一只手爬上了我的肩膀，和她的脑袋一起向前靠来。我猜到了她的意图，于是向地板躺去。"
 
 #hi "Ah…"
-hi ""
+hi "啊……"
 
 scene evhunlock lilly_handjob_chest_normal_small
 show evh lilly_handjob_chest_normal:
@@ -1426,13 +1438,13 @@ show evh lilly_handjob_chest_normal:
 with whiteout
 
 #"She lowers herself beside me, one hand stroking my hair as the other moves across my chest. The feeling of her breast against it is enough to excite me."
-""
+"她在我边上躺了下来，一只手抚着我的头发，另一只手则越过我的胸膛。她的乳房压在我身上的感觉已经够让我兴奋的了。"
 
 #"This must be her way of taking in what I've already seen of her; despite her lack of sight, she engraves every detail of my bare body and chest into her mind."
-""
+"我通过眼睛看到的景象，她则需要这样才能感受到。虽然看不见，但她还是把我赤裸的身体和胸膛印入了她的脑海。"
 
 #"When her middle finger falls into the slight recess of my chest scar, a lingering effect of my operation so many months ago, she slowly runs her hand down its length."
-""
+"她的中指在我胸口的伤疤上停留——那是我几个月前的手术给我留下的消不去的纪念。她慢慢地用手滑过整条伤疤。"
 
 show evhunlock lilly_handjob_chest_frown_small
 show evh lilly_handjob_chest_frown:
@@ -1440,31 +1452,32 @@ show evh lilly_handjob_chest_frown:
 with charachange
 
 #li "This is…"
-li ""
+li "这是……"
 
 #hi "The scar, from my surgery. They had to do this in order to operate on my heart."
-hi ""
+hi "我手术的伤疤。他们必须这样才能给我的心脏做手术。"
 
 #"For a moment she's lost for words, the idea of such extensive scarring adding a new worry for her. Her expression changes from curiosity to apprehension."
-""
+"她一时不知该说什么，长长的伤疤增添的了她的忧虑。她的表情从好奇变成了害怕。"
 
 #li "Should we… really be doing this kind of thing…?"
-li ""
+li "我们……真的可以做这种事吗……？"
 
 #"Those words bother me beyond what is rational. Lilly's face breaks my heart more than even her words possibly could, yet I don't even know the answer to her question."
-""
+#XXX
+"这话让我觉得不舒服到了不理性的地步。而莉莉的脸更是比她地话千百倍地让我心碎，但我又想不出一句话来回答她。"
 
 #"I can't let this condition dominate me forever. It may not even be medically advisable, but I outright refuse to live my life in such a prison."
-""
+"但我不能让这种状况一直支配着我。虽然医生肯定会不高兴，但我不能在这样的监牢里过一辈子。"
 
 #hi "It's okay, Lilly. This much will be okay."
-hi ""
+hi "没事的，莉莉。这种程度没事的。"
 
 show evh lilly_handjob_chest_normal
 with charachange
 
 #"Her troubled expression holds for a moment longer, but she eventually acquiesces, her hand moving to my lower chest and then my thigh."
-""
+"她担忧的神色保留了一会，但她最终投降了。她的手顺着我的胸口摸到了我的大腿。"
 
 show evh lilly_handjob_chest_normal:
     zoom 1.0 xalign 0.4 yalign 0.2
@@ -1477,10 +1490,10 @@ show evh lilly_handjob_stroke_normopen:
 with charachange
 
 #"With a look of slight surprise, she slowly moves her hands downwards, her breath catching as she brushes the side of my lower hair."
-""
+"带着点吃惊的表情，她将手慢慢向下移动。在摸到我的阴毛的时候，她抽了口气。"
 
 #"She tentatively moves her hand sideways, delicately touching the most honest part of my body."
-""
+"她试探性地把手往一边移去，小心地触摸着我身上最诚实的部分。"
 
 show evh lilly_handjob_stroke_normshut_small:
     truecenter 
@@ -1488,145 +1501,148 @@ show evh lilly_handjob_stroke_normshut_small:
 with charachange
 
 #li "Th… this is…"
-li ""
+li "这……这是……"
 
 #hi "Y-yeah."
-hi ""
+hi "呃……嗯。"
 
 #"Our nervousness peaks as the act begins, her hand gently patting up and down as lightly as if it would break if breathed upon."
-""
+"此刻我们的紧张情绪到了顶峰，她的手轻柔地上下抚摸着，仿佛吹口气就会弄坏它似的。"
 
 #"I'm not sure whether it's just to steady myself or because I want to steady her, but I take my free hand and hold the side of her face in it. The feeling of her hair and soft skin is nice, and it seems to lighten her mood a bit."
-""
+"不知是出于安抚她还是安抚我自己的情绪，我用空出来的手握着她的脸颊。她头发和柔软皮肤的感觉很好，而且这好像也放松了她的情绪。"
 
 #"The mere fact that I'm being touched by her is surprisingly erotic. I feel my body relaxing as I submit to the pleasure overwhelming me."
-""
+"但是我正在被他触摸着这个事实就够色情的了。我屈服于越来越强的快感，身体放松下来。"
 
 #"Long minutes pass in almost total silence, our heavy breathing the only sound to be heard in the house. Lilly's fingers stop affectionately stroking my hair and she opens her lips once again."
-""
+"我们粗重的呼吸声此刻是这房子里唯一的声音。莉莉热切地抚摸我头发的动作停了下来，她又开了口。"
 
 show evh lilly_handjob_stroke_flustopen_small
 with charachange
 
 #li "Hisao…"
-li ""
+li "久夫……"
 
 #"I wait a second for the rest of the sentence, but none is forthcoming. She may be trying to take the lead, but she's still incredibly nervous."
-""
+"我等着她把话说完，但她却没有继续说。她想要主动，但却太羞涩了。"
 
 #"I can't help smiling as I stroke her hair from her face a couple of times, reassuring her. As nervous as she may be, I'm thankful that Lilly's taking the lead. I'd probably be just as anxious as she if I were attending to her."
-""
+#XXX 后半句不行……
+"我几次撩起她脸边的头发，试图给她勇气，同时止不住自己的笑容。我对莉莉虽然这么紧张却仍然保持主动感到很感激。如果是我的话，也不会比她好到哪里去。"
 
 show evh lilly_handjob_stroke_normopen_small
 with charachange
 
 #hi "Okay."
-hi ""
+hi "来吧。"
 
 #"She pauses a moment before giving a small nod, sitting up and shifting her legs over mine. Once again my breath is stolen by the magnificent sight of her body over mine."
-""
+"她停了一会，然后点了下头，开始跨坐在我身上。又一次，她的身体构成的美好景色让我止住了呼吸。"
 
 show evh lilly_cowgirl_smile_small
 with whiteout
 
 #"I can only look on frozen as she delicately lowers herself, resting her reddened lips over me. She slowly begins to move her hips downwards, her softness enveloping my consciousness."
-""
+#XXX 
+"我只能呆呆地看着她小心翼翼地沉下身子，将她红润的阴唇移到我的上方。她慢慢坐下来，柔软的感觉包裹了我的意识。"
 
 show evh lilly_cowgirl_weaksmile_small
 with charachange
 
 #"She takes a deep breath to collect herself, her face remaining steady. With her hands taking in my body in lieu of sight, the intimate situation muddles her usual efforts to compensate for lack of eye contact."
-""
+"她深吸一口气来稳住自己，一副沉稳的表情。她又一次以手代眼观察着我的身体，我们这亲密的举动干扰了她用来代替视力的感知能力。"
 
 #"She gradually lowers herself onto me, her knees and hands supporting her as she does. Her entire body tenses as I enter, her expression obviously one of stifled pain."
-""
+"她用手和膝盖支撑着，慢慢向我低下身子。在我进入的时候，她的身体紧张起来，她压抑着，但还是明显露出了痛苦的神色。"
 
 #"Despite that, I can't help savoring the soft, warm feeling enveloping my consciousness, the surge of pleasure overcoming all my senses."
-""
+"尽管如此，我还是沉浸在这包裹着我的意识的柔软温暖感觉里，享受着这改过了我一切感觉的快感。"
 
 #"The last vestiges of it all but disappear inside her while her nails slightly scrape into my chest in an effort to stop herself from yelping in pain. A pained moan, too much for her to suppress completely, escapes from her lips."
-""
+"但这很快就几乎完全消失在了她试图忍住痛苦而在我胸膛上留下的抓痕中。一声痛苦的呻吟，压抑不住地从她嘴唇中漏了出来。"
 
 #"As I open my mouth to comfort her, I see the barely visible red drops from between her legs."
-""
+"我可以看到她两腿之间落下的红色液体，便张嘴安慰她。"
 
 #hi "Lilly, if it's too much…"
-hi ""
+hi "莉莉，如果太……"
 
 scene evh lilly_cowgirl_strain_small
 with charachange
 
 #"She clenches her mouth tightly, quickly and forcefully shaking her head from side to side in defiance. After a couple of seconds she relaxes her body slightly, though she's still obviously far from being comfortable."
-""
+"她紧紧抿着嘴，出于反抗快而强硬地摇着头。一会之后她的身体稍稍放松下来，但显然还远不到舒服的程度。"
 
 #li "I… it's okay… I'm okay."
-li ""
+li "没……没事……我能行。"
 
 scene evh lilly_cowgirl_frown_small
 with charachange
 
 #"She swallows hard, trying to collect herself."
-""
+"她用力吸着气，让自己平静下来。"
 
 #"Lifting herself slowly and bringing herself back down, she relaxes a little more as the feelings of pleasure begin to overtake those of pain."
-""
+"她慢慢提起自己的身体然后又落下来，慢慢开始占上风的快感让她变得更放松起来。"
 
 scene evh lilly_cowgirl_strain_small
 with charachange
 
 #"Her breathing starts to match the same ragged patterns as mine, her body moving almost teasingly slowly. She looks as if she's slowly beginning to enjoy the act, my feelings finally reaching her."
-""
+"她呼吸的节奏慢慢变得和我一样杂乱，她的身体仿佛是在挑逗我一般慢慢移动。她看起来慢慢变得享受这个过程，我的感觉终于传递给她了。"
 
 #"I'm not sure if she's keeping herself at this speed for her sake or for mine, but either way… with this slow and steady pace, I think I can… keep my body in check. It's funny, in a way, that even now I'm depending on her."
-""
+"我不知道她是为了自己还是为了我才保持这个速度的，但不管怎么样……以这种慢而恒定的速度，我觉得我能……保证我的身体不出问题。想到就连现在我也还在依靠她的照顾，这也真够好笑的了。"
 
 #"For us to be joined together like this, our feelings so close… it makes me glad. To be sharing our first moment together like this… is an almost… overwhelming… feeling…"
-""
+"我们能这样结合，我们的感受能这样彼此接近……这让我感到很高兴。能这样一起共度我们的第一次……真是一种……绝顶的……感受……"
 
 #hi "I love you… Lilly…"
-hi ""
+hi "我爱你……莉莉……"
 
 scene evh lilly_cowgirl_cry_small
 with charachange
 
 #li "Hisao… Hisao…!"
-li ""
+li "久夫……久夫……！"
 
 #"I can feel her body tensing, her breathing and movements becoming steadily less carefully controlled. I'm happy to be making her feel so good, but as my thoughts become increasingly focused, I can feel myself rapidly nearing my limit."
-""
+"我可以感觉到她的身体绷紧，她对呼吸和动作变得不那么仔细。我很高兴我能让她这么舒服，但我的思想变得越来越集中，我也要到极限了。"
 
 scene white
 with Dissolve(3.0)
 
 #"Control of my body is instantaneously wrested from my mind as I grit my teeth hard, a loud moan escaping as I climax and my hips hit hers. Her body hunches over at the same moment, her breasts touching on my chest."
-""
+"我对身体的控制一下子被夺走了，我要紧牙关，在臀部相撞与高潮的同时忍不住大声呻吟起来。于此同时她的身体也弓了起来，乳房和我的胸口接触着。"
 
 #"We stay locked in all-encompassing ecstasy for a brief moment, my mind completely taken by the feeling for a precious few seconds."
-""
+"我们沉浸在这全面包围的快感中，我的思想在宝贵的几秒内完全被这感觉盖过了。"
 
 scene evh lilly_cowgirl_weaksmile_small
 with charachange
 
 #"It ends all too soon and our bodies collapse in exhaustion with Lilly barely staying on top of me."
-""
+"但这感觉飞快地褪去了，我们的身体摊在一起，莉莉几乎从我的身上掉了下去。"
 
 #"I lifelessly manage to wrap my arms around her limp, sweating body, and for minutes we simply lay there, silently savoring the contact with each other while we recover from the experience."
-""
+"我无力地勉强把她软弱无力、汗流浃背的身体抱在怀里。我们在那躺了好几分钟，静静地享受着和对方肌肤相亲的感觉，一边从刚才的经验中回过神来。"
 
 #"Neither of us had thought ourselves prepared for such a thing, of that much I'm certain."
-""
+"我们都还没准备好经历这样的事，这点我是清楚地。"
 
 #"Entirely drained, far past the point of conversation, I look at her tired face. It looks as if the exertion, both physical and mental, has almost forced her to the verge of collapse."
-""
+#XXX = =
+"完全被榨干了，连说话的力气都没有，我只能看着她疲倦的脸。看来我们刚才的活动，包括肉体上的和精神上的，已经将她逼近崩溃的边缘。"
 
 #hi "I love you, Lilly."
-hi ""
+hi "我爱你，莉莉。"
 
 scene evh lilly_cowgirl_smile_small
 with charachange
 
 #"She nods weakly, rubbing my hair with her left hand. If we could simply remain together like this for an eternity, it would be a paradise like no other."
-""
+"她虚弱的点点头，用左手抚摸着我的头发。如果我们能救这样在一起知道永恒，那也是无出其右的天堂了。"
 
 stop music fadeout 2.0
 
